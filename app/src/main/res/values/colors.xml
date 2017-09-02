@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="red">#F00</color>
+    <color name="green">#5cf907</color>
+    <color name="yellow">#fff356</color>
+    <color name="background">#EFEFF4</color>
+    <color name="transparent_title_background">#7D000000</color>
+    <color name="transparent_popup_background">#CC000000</color>
+
+    <color name="pwd_blue">#0080FF</color>
+    <color name="search_blue">#1A4AA9</color>
+    <color name="lgtGrey">#EFEFF4</color>
+
+</resources>

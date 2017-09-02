@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resistance_array">
+        <item>FAQs</item>
+        <item>Tennis</item>
+        <item>Situation in the United States</item>
+    </string-array>
+</resources>

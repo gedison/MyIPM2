@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyIPM</string>
+    <string name="welcome_text">Welcome to\n<b>MyIPM</b></string>
+    <string name="copywrite"> ©2017 - MyIPM</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_main_fragment">MyIPM</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinner_title">Select affection</string>
+    <string name="placeholder">Placeholder</string>
+    <string name ="disease">Disease</string>
+    <string name = "insect">Insect</string>
+
+
+
+    <string name="table_no_data_title">No Data Found</string>
+    <string name="table_no_data_contents">No data was found for this disease/pest and fruit.</string>
+
+
+    <string name="download_help_title">Welcome to MyIPM</string>
+    <string name="download_help_contents">Press and hold any fruit crop and discipline. Then click the download button. You can always come back later and alter your selection.</string>
+
+    <string name = "more_list_title">DISEASE/DISORDER AND MANAGEMENT</string>
+    <string name = "more_list_title_alt">PEST AND MANAGEMENT</string>
+
+    <string name="download_text">Update</string>
+    <string name="download_title">Downloading...</string>
+    <string name="download_contents">Images and audio will take a few minutes download, depending on your Internet connection, but feel free to look at the app’s text and interactive table content in the meantime.</string>
+
+    <string name="table_help_title">Risk Categories on Right Side of Table</string>
+    <string name="table_help_contents">Shown are the number of pesticide risk categories considered to be ‘low, medium or high risk’ out of 15 categories total, according to the IPM Institute of North America</string>
+
+
+    <string name="diagnostics_list_title">DIAGNOSTICS AND MANAGEMENT</string>
+    <string name="general_list_title">GENERAL</string>
+
+    <string name="conventional">Conventional</string>
+    <string name="organic">Organic</string>
+
+    <string name="search">Search for fungicide</string>
+    <string name="search_alt">Search for pesticide</string>
+    <string name="ai_column1">Active Ingredient</string>
+    <string name="ai_column2">FRAC Code</string>
+    <string name="ai_column2_alt">IRAC Code</string>
+    <string name="ai_column3">Efficacy</string>
+    <string name="ai_column4">Low Risk</string>
+    <string name="ai_column5">Medium Risk</string>
+    <string name="ai_column6">High Risk</string>
+    <string name="ai_column7">Ecolog.\nEIQ</string>
+
+    <string name="tn_column1">Trade Name</string>
+    <string name="tn_column2">Active Ingredient</string>
+    <string name="tn_column3">FRAC Code</string>
+    <string name="tn_column3_alt">IRAC Code</string>
+    <string name="tn_column4">Rate/Acre</string>
+    <string name="tn_column5">PHI/days</string>
+    <string name="tn_column6">REI/hrs</string>
+    <string name="tn_column7">Low Risk</string>
+    <string name="tn_column8">Medium Risk</string>
+    <string name="tn_column9">High Risk</string>
+    <string name="tn_column10">Ecolog.\nEIQ</string>
+
+    <string name="tn_column11">Aquatic\nAlgae</string>
+    <string name="tn_column12">Aquatic\nInvertebrates</string>
+    <string name="tn_column13">Avian Acute</string>
+    <string name="tn_column14">Avian\nReproductive</string>
+    <string name="tn_column15">Earthworm</string>
+    <string name="tn_column16">Fish Chronic</string>
+    <string name="tn_column17">Small\nMammal Acute</string>
+    <string name="tn_column18">Dermal Cancer</string>
+    <string name="tn_column19">Dermal Acute</string>
+    <string name="tn_column20">Inhalation</string>
+    <string name="tn_column21">Consumer\nCancer</string>
+    <string name="tn_column22">Human Dietary</string>
+    <string name="tn_column23">Pollinator\nOff Crop</string>
+    <string name="tn_column24">Pollinator\nNo Bloom</string>
+    <string name="tn_column25">Pollinator\nIn Bloom</string>
+
+
+    <string name="title_activity_downloader">Downloader</string>
+</resources>
