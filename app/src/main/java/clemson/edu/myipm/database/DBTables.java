@@ -57,6 +57,7 @@ public class DBTables {
     public interface MyTable{
         String getCreateStatement();
         String getTableName();
+        String getURLName();
         int getColumnCount();
         String[] getColumnNames();
     }
@@ -76,6 +77,11 @@ public class DBTables {
 
         public String getTableName() {
             return "fruit";
+        }
+
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {
@@ -104,6 +110,10 @@ public class DBTables {
             return "affection_type";
         }
 
+        public String getURLName() {
+            return getTableName().replace("_","");
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -130,6 +140,10 @@ public class DBTables {
             return "affection";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -148,6 +162,10 @@ public class DBTables {
                     +" id INTEGER PRIMARY KEY"
                     +" ,about TEXT"
                     +");";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public String getTableName() {
@@ -183,6 +201,10 @@ public class DBTables {
             return "resistance";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -210,6 +232,10 @@ public class DBTables {
 
         public String getTableName() {
             return "guide";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {
@@ -241,6 +267,10 @@ public class DBTables {
             return "situation";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -264,6 +294,10 @@ public class DBTables {
 
         public String getTableName() {
             return "overview";
+        }
+
+        public String getURLName() {
+            return "affectionoverview";
         }
 
         public int getColumnCount() {
@@ -295,6 +329,10 @@ public class DBTables {
             return "more";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -319,6 +357,10 @@ public class DBTables {
 
         public String getTableName() {
             return "gallery";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {
@@ -348,6 +390,10 @@ public class DBTables {
             return "audio";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -375,6 +421,10 @@ public class DBTables {
 
         public String getTableName() {
             return "active";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {
@@ -407,6 +457,10 @@ public class DBTables {
             return "affection_active";
         }
 
+        public String getURLName() {
+            return getTableName().replace("_","");
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -417,7 +471,23 @@ public class DBTables {
     }
 
     private class TradeTable implements MyTable{
-        private String[] columnNames = {"id", "fruitID", "name", "activeName", "activeID", "rate", "phi", "rei", "fieldUse", "consumer", "worker", "ecological", "typeID"};
+        private String[] columnNames = {"id", "fruitID", "name", "activeName", "activeID", "rate", "phi", "rei",
+                "aquaticAlgae",
+                "aquaticInvertebrates",
+                "avianAcute",
+                "avianReproductive",
+                "earthworm",
+                "fishChronic",
+                "smallMammalAcute",
+                "dermalCancer",
+                "dermalAcute",
+                "inhalation",
+                "consumerCancer",
+                "humanDietary",
+                "pollinatorOffCrop",
+                "pollinatorNoBloom",
+                "pollinatorInBloom"
+                , "typeID"};
 
         public String getCreateStatement() {
             return "CREATE TABLE "+getTableName()
@@ -430,16 +500,31 @@ public class DBTables {
                     +" ,rate TEXT"
                     +" ,phi INTEGER"
                     +" ,rei INTEGER"
-                    +" ,fieldUse FLOAT"
-                    +" ,consumer FLOAT"
-                    +" ,worker FLOAT"
-                    +" ,ecological FLOAT"
-                    +" ,typeID INTEGER"
+                    +" ,aquaticAlgae INTEGER"
+                    +",aquaticInvertebrates INTEGER"
+                    +",avianAcute INTEGER"
+                    +",avianReproductive INTEGER"
+                    +",earthworm INTEGER"
+                    +",fishChronic INTEGER"
+                    +",smallMammalAcute INTEGER"
+                    +",dermalCancer INTEGER"
+                    +",dermalAcute INTEGER"
+                    +",inhalation INTEGER"
+                    +",consumerCancer INTEGER"
+                    +",humanDietary INTEGER"
+                    +",pollinatorOffCrop INTEGER"
+                    +",pollinatorNoBloom INTEGER"
+                    +",pollinatorInBloom INTEGER"
+                    +",typeID INTEGER"
                     +");";
         }
 
         public String getTableName() {
             return "trade";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {
@@ -465,6 +550,10 @@ public class DBTables {
 
         public String getTableName() {
             return "affection_trade";
+        }
+
+        public String getURLName() {
+            return getTableName().replace("_","");
         }
 
         public int getColumnCount() {
@@ -494,6 +583,10 @@ public class DBTables {
             return "app";
         }
 
+        public String getURLName() {
+            return getTableName();
+        }
+
         public int getColumnCount() {
             return columnNames.length;
         }
@@ -516,6 +609,10 @@ public class DBTables {
 
         public String getTableName() {
             return "downloads";
+        }
+
+        public String getURLName() {
+            return getTableName();
         }
 
         public int getColumnCount() {

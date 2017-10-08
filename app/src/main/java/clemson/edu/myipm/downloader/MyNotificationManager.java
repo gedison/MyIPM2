@@ -6,10 +6,6 @@ import android.support.v7.app.NotificationCompat;
 
 import clemson.edu.myipm.R;
 
-/**
- * Created by gedison on 7/22/2017.
- */
-
 public class MyNotificationManager {
 
     private static MyNotificationManager instance;

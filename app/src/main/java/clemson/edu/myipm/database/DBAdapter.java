@@ -35,6 +35,18 @@ public class DBAdapter {
         }
     }
 
+    public void deleteContent(){
+        SQLiteDatabase db = mDBHelper.getWritableDatabase();
+        db.beginTransaction();
+
+        for(int i=0; i<tables.size()-1; i++){
+            String sql = "DELETE FROM "+tables.getIthTableInstance(i).getTableName();
+            db.execSQL(sql);
+        }
+        db.setTransactionSuccessful();
+        db.endTransaction();
+    }
+
     //==============================================================================================
     //READ
     private boolean debugSelectStatement = false;

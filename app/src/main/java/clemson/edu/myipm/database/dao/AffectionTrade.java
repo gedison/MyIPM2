@@ -1,11 +1,30 @@
 package clemson.edu.myipm.database.dao;
 
-/**
- * Created by gedison on 7/22/2017.
- */
-
 public class AffectionTrade extends TableEntry {
-    String tradeId, name, activeName, activeId, activeColor, rate, phi, rei, fieldUse, consumer, worker, ecological, code;
+    String tradeId,
+            name,
+            activeName,
+            activeId,
+            activeColor,
+            rate, phi, rei,
+            code,
+            aquaticAlgae,
+    aquaticInvertebrates,
+    avianAcute,
+    avianReproductive,
+    earthworm ,
+    fishChronic,
+    smallMammalAcute ,
+    dermalCancer ,
+    dermalAcute ,
+    inhalation,
+    consumerCancer ,
+    humanDietary ,
+    pollinatorOffCrop,
+    pollinatorNoBloom,
+    pollinatorInBloom;
+
+
 
     AffectionTrade(String[] result){
         name = result[0];
@@ -13,16 +32,29 @@ public class AffectionTrade extends TableEntry {
         rate = result[2];
         phi = result[3];
         rei = result[4];
-        fieldUse = result[5];
-        consumer = result[6];
-        worker = result[7];
-        ecological = result [8];
-        tradeId = result [9];
-        activeColor = result[10];
-        activeId = result[11];
-        code = result[12];
+        tradeId = result [5];
+        activeColor = result[6];
+        activeId = result[7];
+        code = result[8];
+        aquaticAlgae = result[9];
+        aquaticInvertebrates = result[10];
+        avianAcute = result[11];
+        avianReproductive = result[12];
+        earthworm = result[13];
+        fishChronic = result[14];
+        smallMammalAcute = result[15];
+        dermalCancer = result[16];
+        dermalAcute = result[17];
+        inhalation = result[18];
+        consumerCancer = result[19];
+        humanDietary = result[20];
+        pollinatorOffCrop = result[21];
+        pollinatorNoBloom = result[22];
+        pollinatorInBloom = result[23];
         System.out.println("color: "+activeColor);
     }
+
+    private String[] risk = {"Low", "Med.", "High"};
 
     private String getDisplayFromValue(String value){
         switch (value){
@@ -53,9 +85,9 @@ public class AffectionTrade extends TableEntry {
     private String getColorForValue(String value){
         switch (value){
             case "Low":return "38870d";
-            case "Medium":return "fff356";
-            case "High": return "F00";
-            default: return "fff";
+            case "Med.":return "fff356";
+            case "High": return "ff0000";
+            default: return "ffffff";
         }
     }
 
@@ -67,22 +99,21 @@ public class AffectionTrade extends TableEntry {
             case 3: return getValueColor("");
             case 4: return getValueColor(rei);
             case 5: return getValueColor(phi);
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
-            case 21: return getColorForValue("Low");
+            case 6: return getColorForValue(risk[Integer.parseInt(aquaticAlgae)-1]);
+            case 7: return getColorForValue(risk[Integer.parseInt(aquaticInvertebrates)-1]);
+            case 8: return getColorForValue(risk[Integer.parseInt(avianAcute)-1]);
+            case 9: return getColorForValue(risk[Integer.parseInt(avianReproductive)-1]);
+            case 10: return getColorForValue(risk[Integer.parseInt(earthworm)-1]);
+            case 11: return getColorForValue(risk[Integer.parseInt(fishChronic)-1]);
+            case 12:return getColorForValue(risk[Integer.parseInt(smallMammalAcute)-1]);
+            case 13:return getColorForValue(risk[Integer.parseInt(dermalCancer)-1]);
+            case 14:return getColorForValue(risk[Integer.parseInt(dermalAcute)-1]);
+            case 15:return getColorForValue(risk[Integer.parseInt(inhalation)-1]);
+            case 16:return getColorForValue(risk[Integer.parseInt(consumerCancer)-1]);
+            case 17:return getColorForValue(risk[Integer.parseInt(humanDietary)-1]);
+            case 18:return getColorForValue(risk[Integer.parseInt(pollinatorOffCrop)-1]);
+            case 19:return getColorForValue(risk[Integer.parseInt(pollinatorNoBloom)-1]);
+            case 20:return getColorForValue(risk[Integer.parseInt(pollinatorInBloom)-1]);
             default: return getValueColor("");
         }
     }
@@ -95,22 +126,21 @@ public class AffectionTrade extends TableEntry {
             case 3: return rate;
             case 4: return getDisplayFromValue(rei);
             case 5: return getDisplayFromValue(phi);
-            case 6: return "Low";
-            case 7: return "Low";
-            case 8: return "Low";
-            case 9: return "Low";
-            case 10: return "Low";
-            case 11: return "Low";
-            case 12: return "Low";
-            case 13: return "Low";
-            case 14: return "Low";
-            case 15: return "Low";
-            case 16: return "Low";
-            case 17: return "Low";
-            case 18: return "Low";
-            case 19: return "Low";
-            case 20: return "Low";
-            case 21: return "Low";
+            case 6: return risk[Integer.parseInt(aquaticAlgae)-1];
+            case 7: return risk[Integer.parseInt(aquaticInvertebrates)-1];
+            case 8: return risk[Integer.parseInt(avianAcute)-1];
+            case 9: return risk[Integer.parseInt(avianReproductive)-1];
+            case 10: return risk[Integer.parseInt(earthworm)-1];
+            case 11: return risk[Integer.parseInt(fishChronic)-1];
+            case 12:return risk[Integer.parseInt(smallMammalAcute)-1];
+            case 13:return risk[Integer.parseInt(dermalCancer)-1];
+            case 14:return risk[Integer.parseInt(dermalAcute)-1];
+            case 15:return risk[Integer.parseInt(inhalation)-1];
+            case 16:return risk[Integer.parseInt(consumerCancer)-1];
+            case 17:return risk[Integer.parseInt(humanDietary)-1];
+            case 18:return risk[Integer.parseInt(pollinatorOffCrop)-1];
+            case 19:return risk[Integer.parseInt(pollinatorNoBloom)-1];
+            case 20:return risk[Integer.parseInt(pollinatorInBloom)-1];
             default: return "";
         }
     }
@@ -123,22 +153,21 @@ public class AffectionTrade extends TableEntry {
             case 3: return rate;
             case 4: return rei;
             case 5: return phi;
-            case 6: return "Low";
-            case 7: return "Low";
-            case 8: return "Low";
-            case 9: return "Low";
-            case 10: return "Low";
-            case 11: return "Low";
-            case 12: return "Low";
-            case 13: return "Low";
-            case 14: return "Low";
-            case 15: return "Low";
-            case 16: return "Low";
-            case 17: return "Low";
-            case 18: return "Low";
-            case 19: return "Low";
-            case 20: return "Low";
-            case 21: return "Low";
+            case 6: return aquaticAlgae;
+            case 7: return aquaticInvertebrates;
+            case 8: return avianAcute;
+            case 9: return avianReproductive;
+            case 10: return earthworm;
+            case 11: return fishChronic;
+            case 12:return smallMammalAcute;
+            case 13:return dermalCancer;
+            case 14:return dermalAcute;
+            case 15:return inhalation;
+            case 16:return consumerCancer;
+            case 17:return humanDietary;
+            case 18:return pollinatorOffCrop;
+            case 19:return pollinatorNoBloom;
+            case 20:return pollinatorInBloom;
             default: return "";
         }
     }
@@ -167,11 +196,13 @@ public class AffectionTrade extends TableEntry {
                 if(l>r)ret = 1;
                 else if(l<r) ret = -1;
             } else ret = getValueAtIndex(i).compareTo(b.getValueAtIndex(i));
-        }else{
+        }else if(i<6){
             float f1 = Float.parseFloat(getValueAtIndex(i));
             float f2 = Float.parseFloat(b.getValueAtIndex(i));
             if(f1>f2)ret = 1;
             else if(f1<f2) ret = -1;
+        }else{
+            ret = getValueAtIndex(i).toLowerCase().compareTo(b.getValueAtIndex(i).toLowerCase());
         }
 
         return (doubleSort) ? (ret*-1) : ret;

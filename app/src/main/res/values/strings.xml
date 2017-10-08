@@ -24,7 +24,7 @@
 
     <string name="download_text">Update</string>
     <string name="download_title">Downloading...</string>
-    <string name="download_contents">Images and audio will take a few minutes download, depending on your Internet connection, but feel free to look at the app’s text and interactive table content in the meantime.</string>
+    <string name="download_contents">Images and audio will take a few minutes to download, depending on your Internet connection, but feel free to look at the app’s text and interactive table content in the meantime.</string>
 
     <string name="table_help_title">Risk Categories on Right Side of Table</string>
     <string name="table_help_contents">Shown are the number of pesticide risk categories considered to be ‘low, medium or high risk’ out of 15 categories total, according to the IPM Institute of North America</string>

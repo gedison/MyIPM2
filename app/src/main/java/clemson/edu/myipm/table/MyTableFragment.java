@@ -26,10 +26,6 @@ import clemson.edu.myipm.table.utility.MyScrollView;
 import clemson.edu.myipm.table.utility.MyScrollViewHorizontal;
 import clemson.edu.myipm.table.utility.ScrollViewListener;
 
-
-/**
- * Created by gedison on 5/15/2016.
- */
 public class MyTableFragment extends Fragment implements
         ScrollViewListener, HorizontalScrollViewListener, View.OnClickListener {
 
@@ -150,15 +146,12 @@ public class MyTableFragment extends Fragment implements
             });
             colorAnimation.start();
         }
-
-
     }
 
     private TextView setColor(String text, String color, boolean offRow){
         TextView columnText =  this.setTableCell(text, offRow);
 
         if(!color.contains(":")){
-
             columnText.setTextColor(Color.parseColor('#' + color));
             return columnText;
         }else{
@@ -235,9 +228,7 @@ public class MyTableFragment extends Fragment implements
         return tempRow;
     }
 
-
     private void setTopLeftTable(int width){
-        System.out.println("Top LEFT: "+width);
         TableRow tempRow = this.setTableRow();
         TableRow dummyRow = this.setTableRow();
 

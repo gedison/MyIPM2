@@ -1,5 +1,6 @@
 package clemson.edu.myipm;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -34,14 +35,17 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 import clemson.edu.myipm.database.DBAdapter;
+import clemson.edu.myipm.database.InitDatabaseFromWebTask;
 import clemson.edu.myipm.database.InitDatabaseTask;
 import clemson.edu.myipm.database.OnInitFinishedListener;
+import clemson.edu.myipm.database.OnSyncFinishedListener;
 import clemson.edu.myipm.database.dao.AboutDAO;
 import clemson.edu.myipm.database.dao.AffectionDAO;
 import clemson.edu.myipm.database.dao.AffectionSelectionDAO;
@@ -78,7 +82,7 @@ import clemson.edu.myipm.fragments.toolbar.ToolBarVisibility;
 import clemson.edu.myipm.table.TableActivity;
 import clemson.edu.myipm.utility.SharedPreferencesHelper;
 
-public class MainFragmentActivity extends AppCompatActivity implements OnInitFinishedListener, SearchFragmentListener, OnImageSelectionListener, OnMoreMenuSelectListener, OnFruitSelectionListener, OnAffectionSelectionListener, OnAffectionMenuSelectListener, GeneralListSelectionListener, ToolBarVisibility {
+public class MainFragmentActivity extends AppCompatActivity implements OnSyncFinishedListener, OnInitFinishedListener, SearchFragmentListener, OnImageSelectionListener, OnMoreMenuSelectListener, OnFruitSelectionListener, OnAffectionSelectionListener, OnAffectionMenuSelectListener, GeneralListSelectionListener, ToolBarVisibility {
 
 
     public static final String SEARCH_VALUE = "searchValue";
@@ -97,6 +101,13 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), DownloaderActivity.class);
                 startActivity(i);
+            }
+        });
+
+        Button sync = (Button) findViewById(R.id.sync);
+        sync.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                onStartSync();
             }
         });
 
@@ -124,11 +135,8 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
                 ArrayAdapterSearchView searchView = (ArrayAdapterSearchView) findViewById(R.id.search);
                 searchView.setText(query);
                 if (getSupportFragmentManager().findFragmentById(R.id.fragment_container_top) instanceof SearchFragment) {
-
-
                     SearchFragment searchFragment = (SearchFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_container_top);
                     searchFragment.doSearch(query);
-
                 }else switchToSearchFragment(query);
 
             }
@@ -140,15 +148,11 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
         searchView.setAutoCompleSuggestionsAdapter(adapter);
 
         DBAdapter mDBAdapter = new DBAdapter(this);
-        boolean noSplash = getIntent().getBooleanExtra(NO_SPASH, false);
-        if(!noSplash) {
-            final boolean databaseEmpty = mDBAdapter.isDatabaseEmpty();
-            if(databaseEmpty){
-                setWelcomeFragment();
-                new InitDatabaseTask(this, this).execute();
-            }else{
-                setFruitSelectorFragment();
-            }
+
+        final boolean databaseEmpty = mDBAdapter.isDatabaseEmpty();
+        if(databaseEmpty){
+            setWelcomeFragment();
+            new InitDatabaseTask(this, this).execute();
         }else{
             setFruitSelectorFragment();
         }
@@ -228,6 +232,16 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
         searchView.setVisibility(View.GONE);
     }
 
+    public void addSyncButton(){
+        Button button = (Button) findViewById(R.id.sync);
+        button.setVisibility(View.VISIBLE);
+    }
+
+    public void removeSyncButton(){
+        Button button = (Button) findViewById(R.id.sync);
+        button.setVisibility(View.GONE);
+    }
+
     public void addDownloadButton(){
         Button button = (Button) findViewById(R.id.settings);
         button.setVisibility(View.VISIBLE);
@@ -279,6 +293,7 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
                 changeStatusBarColor(ResourcesCompat.getColor(getResources(), R.color.colorPrimaryDark, null));
                 addSearchBar();
                 addDownloadButton();
+                addSyncButton();
                 removeAffectionSelect();
             }
 
@@ -287,12 +302,14 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
                 addSearchBar();
                 removeAffectionSelect();
                 removeDownloadButton();
+                removeSyncButton();
             }
 
             if (f instanceof GeneralListFragment || f instanceof TextFragment || f instanceof WelcomeFragment) {
                 removeAffectionSelect();
                 removeDownloadButton();
                 removeSearchBar();
+                removeSyncButton();
             }
 
             if (f instanceof AffectionPager) {
@@ -305,6 +322,7 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
                 changeStatusBarColor(darker(color, .7f));
                 addAffectionSelect();
                 removeDownloadButton();
+                removeSyncButton();
                 removeSearchBar();
             }
 
@@ -314,6 +332,7 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
                 toolbar.setTitle(title);
                 addAffectionSelect();
                 removeDownloadButton();
+                removeSyncButton();
                 removeSearchBar();
             }
         }
@@ -446,8 +465,6 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
 
             public void onNothingSelected(AdapterView<?> adapterView) {}
         });
-
-
 
         switchToAffectionSelectorFragment();
     }
@@ -638,5 +655,20 @@ public class MainFragmentActivity extends AppCompatActivity implements OnInitFin
         setFruitSelectorFragment();
         Intent i = new Intent(getApplicationContext(), DownloaderActivity.class);
         startActivity(i);
+    }
+
+    ProgressDialog progressDialog;
+
+    public void onStartSync(){
+        new InitDatabaseFromWebTask(this, this).execute();
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("Syncing database");
+        progressDialog.setMessage("Syncing database please wait.");
+        progressDialog.setIndeterminate(true);
+        progressDialog.show();
+    }
+
+    public void onSyncFinished() {
+        progressDialog.dismiss();
     }
 }

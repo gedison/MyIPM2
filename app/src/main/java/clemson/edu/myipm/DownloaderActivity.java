@@ -30,10 +30,9 @@ import clemson.edu.myipm.fragments.downloader.FruitSelectorDownloadFragment;
 import clemson.edu.myipm.fragments.downloader.OnFruitSelectionDownloadListener;
 import clemson.edu.myipm.utility.SharedPreferencesHelper;
 
-public class DownloaderActivity extends AppCompatActivity implements OnFruitSelectionDownloadListener, OnInitFinishedListener {
+public class DownloaderActivity extends AppCompatActivity implements OnFruitSelectionDownloadListener{
 
-
-    Set<AppDAO.App> selectedItems = new HashSet<>();
+    private Set<AppDAO.App> selectedItems = new HashSet<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,13 +42,7 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
         setSupportActionBar(toolbar);
 
         if(SharedPreferencesHelper.getDownloaderHelp(this))showDownloaderHelperAlert();
-
-        DBAdapter dbAdapter = new DBAdapter(this);
-        if(dbAdapter.isDatabaseEmpty()){
-            new InitDatabaseTask(this, this).execute();
-        }else{
-            createView();
-        }
+        createView();
     }
 
     void createView(){
@@ -69,7 +62,6 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
 
 
     public void onClick(View v){
-        List<AppDAO.App> itemsToDownload = new ArrayList<>();
         List<String> filesToDownloadTemp = new ArrayList<String>();
 
         DownloadDAO downloadDAO = new DownloadDAO(getApplicationContext());
@@ -108,16 +100,9 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
         }
     }
 
-    public void onInitFinished() {
-        createView();
-    }
-
     public void onFruitSelection(AppDAO.App item) {
         if(selectedItems.contains(item))selectedItems.remove(item);
         else selectedItems.add(item);
-
-
-        System.out.println("Contains "+selectedItems.size()+" items");
     }
 
     public void showDownloaderHelperAlert(){
@@ -125,7 +110,6 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
         builder.setMessage(R.string.download_help_contents).setTitle(R.string.download_help_title)
                 .setNegativeButton("Okay", null);
         builder.create();
-
         builder.show();
     }
 

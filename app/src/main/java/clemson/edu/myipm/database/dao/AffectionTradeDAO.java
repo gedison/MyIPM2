@@ -18,11 +18,17 @@ public class AffectionTradeDAO {
     public TableEntry[] getAffectionTradeDataWithTypeWithAffection(int typeId, String affectionId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT trade.name, trade.activeName, trade.rate, trade.phi, trade.rei, " +
-                "trade.fieldUse, trade.consumer, trade.worker, trade.ecological, trade.id, active.color, active.id, active.codeName FROM trade " +
+                "trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
+                "aquaticInvertebrates, avianAcute,avianReproductive,earthworm,fishChronic," +
+                "smallMammalAcute,dermalCancer,dermalAcute,inhalation,consumerCancer," +
+                "humanDietary,pollinatorOffCrop,pollinatorNoBloom,pollinatorInBloom "+
+                "FROM trade " +
                 "INNER JOIN affection_trade on trade.id = affection_trade.tradeID " +
                 "INNER JOIN active on trade.activeID = active.id " +
                 "WHERE affection_trade.affectionID = '"+affectionId+"' " +
                 "AND trade.typeID = '"+typeId+"' ORDER BY trade.name";
+
+
 
 
         String[][] results = dbAdapter.getMultidimensionalArrayOfStringsFromCursor(dbAdapter.runSelectQuery(sql, true));
@@ -34,7 +40,11 @@ public class AffectionTradeDAO {
     public TableEntry[] getAffectionTradeDataWithTypeWithAffectionWithActiveId(int typeId, String affectionId, int activeId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT trade.name, trade.activeName, trade.rate, trade.phi, trade.rei, " +
-                "trade.fieldUse, trade.consumer, trade.worker, trade.ecological, trade.id, active.color, active.id, active.codeName FROM trade " +
+                "trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
+                "aquaticInvertebrates, avianAcute,avianReproductive,earthworm,fishChronic," +
+                "smallMammalAcute,dermalCancer,dermalAcute,inhalation,consumerCancer," +
+                "humanDietary,pollinatorOffCrop,pollinatorNoBloom,pollinatorInBloom "+
+                "FROM trade " +
                 "INNER JOIN affection_trade on trade.id = affection_trade.tradeID " +
                 "INNER JOIN active on trade.activeID = active.id " +
                 "WHERE affection_trade.affectionID = '"+affectionId+"' " +

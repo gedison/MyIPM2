@@ -257,7 +257,6 @@ public class TableActivity extends AppCompatActivity{
     public void setTableFragment(Bundle savedInstanceState){
 
         if (savedInstanceState == null) {
-            System.out.println("NOT SAVED");
             myTableFragment = new MyTableFragment();
             Bundle bundle = new Bundle();
             bundle.putStringArray("rownames", rowNames[tableType]);
@@ -280,7 +279,6 @@ public class TableActivity extends AppCompatActivity{
             AffectionActiveDAO affectionActiveDAO = new AffectionActiveDAO(this);
             if(activeId!=-1) {
                 data = affectionActiveDAO.getAffectionActiveDataWithTypeWithAffectionWithActiveId(typeID, SharedPreferencesHelper.getAffectionId(this), activeId);
-
             }else{
                 data = affectionActiveDAO.getAffectionActiveDataWithTypeWithAffection(typeID, SharedPreferencesHelper.getAffectionId(this));
 

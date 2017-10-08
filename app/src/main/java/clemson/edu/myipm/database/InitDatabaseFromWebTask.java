@@ -1,7 +1,6 @@
 package clemson.edu.myipm.database;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.os.AsyncTask;
 
 import org.json.JSONArray;
@@ -12,28 +11,32 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.URL;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by gedison on 7/22/2017.
- */
 
-public class InitDatabaseTask extends AsyncTask<Void, Void, Void> {
+public class InitDatabaseFromWebTask extends AsyncTask<Void, Void, Void> {
     private Context context;
-    private OnInitFinishedListener listener;
+    private OnSyncFinishedListener listener;
+    private static final String BASE_URL = "http://myipm.bugwoodcloud.org/test/myipm.api.php/";
 
-    public InitDatabaseTask(Context context, OnInitFinishedListener initFinishedListener){
+    public InitDatabaseFromWebTask(Context context, OnSyncFinishedListener initFinishedListener){
         this.context = context;
         listener = initFinishedListener;
     }
 
     protected Void doInBackground(Void... voids) {
         DBAdapter mDBAdapter = new DBAdapter(context);
+        mDBAdapter.deleteContent();
+
         DBTables tables = new DBTables();
         for(int i=0; i<tables.size()-1; i++) {
             DBTables.MyTable table = tables.getIthTableInstance(i);
-            String jsonFileContents = getStringFromAssetsFolder(context, table.getTableName());
+            String jsonFileContents = getStringFromURL(table.getURLName());
+            if(jsonFileContents == null)return null;
+
             try {
                 System.out.println(table.getTableName());
                 JSONArray mJSONArray = new JSONArray(jsonFileContents);
@@ -50,7 +53,39 @@ public class InitDatabaseTask extends AsyncTask<Void, Void, Void> {
     }
 
     protected void onPostExecute(Void v) {
-        listener.onInitFinished();
+        listener.onSyncFinished();
+    }
+
+
+    private static String getStringFromURL(String table){
+        String url = BASE_URL+table;
+
+        InputStream inputStream = null;
+        try {
+            inputStream = new URL(url).openStream();
+            BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
+            String ret = "";
+            String inputLine;
+
+            while ((inputLine = in.readLine()) != null){
+                ret += inputLine;
+            }
+
+            return ret;
+        }catch (IOException e){
+            e.printStackTrace();
+            return null;
+        }finally {
+            if(inputStream != null){
+                try {
+                    inputStream.close();
+                }catch (IOException e){
+
+                }
+            }
+        }
+
+
     }
 
     private static String getStringFromAssetsFolder(Context context, String fileName) {
