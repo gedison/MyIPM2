@@ -2,11 +2,13 @@ package clemson.edu.myipm;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,8 +16,10 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.res.ResourcesCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.Display;
 import android.view.GestureDetector;
 import android.view.Gravity;
@@ -40,7 +44,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import clemson.edu.myipm.database.DBAdapter;
 import clemson.edu.myipm.database.InitDatabaseFromWebTask;
 import clemson.edu.myipm.database.InitDatabaseTask;
@@ -49,15 +57,23 @@ import clemson.edu.myipm.database.OnSyncFinishedListener;
 import clemson.edu.myipm.database.dao.AboutDAO;
 import clemson.edu.myipm.database.dao.AffectionDAO;
 import clemson.edu.myipm.database.dao.AffectionSelectionDAO;
+import clemson.edu.myipm.database.dao.AppDAO;
 import clemson.edu.myipm.database.dao.AudioDAO;
 import clemson.edu.myipm.database.dao.AutoCompleteTextDAO;
+import clemson.edu.myipm.database.dao.DownloadDAO;
 import clemson.edu.myipm.database.dao.GalleryDAO;
 import clemson.edu.myipm.database.dao.GuideDAO;
 import clemson.edu.myipm.database.dao.MainScreenDAO;
 import clemson.edu.myipm.database.dao.ResistanceDAO;
 import clemson.edu.myipm.database.dao.SearchDAO;
 import clemson.edu.myipm.database.dao.SituationDAO;
+import clemson.edu.myipm.downloader.AudioDownloaderRunnable;
+import clemson.edu.myipm.downloader.ImageDownloaderRunnable;
 import clemson.edu.myipm.downloader.ImageLoaderTask;
+import clemson.edu.myipm.downloader.MyNotificationManager;
+import clemson.edu.myipm.downloader.NotificationTask;
+import clemson.edu.myipm.downloader.OnNotificationTaskCompleteListener;
+import clemson.edu.myipm.downloader.entity.Notification;
 import clemson.edu.myipm.fragments.core.OnAffectionChangedListener;
 import clemson.edu.myipm.fragments.core.TextFragment;
 import clemson.edu.myipm.fragments.affection_addendum.AffectionAddendumPager;
@@ -80,9 +96,10 @@ import clemson.edu.myipm.fragments.search.SearchFragmentListener;
 import clemson.edu.myipm.fragments.welcome.WelcomeFragment;
 import clemson.edu.myipm.fragments.toolbar.ToolBarVisibility;
 import clemson.edu.myipm.table.TableActivity;
+import clemson.edu.myipm.utility.FileUtil;
 import clemson.edu.myipm.utility.SharedPreferencesHelper;
 
-public class MainFragmentActivity extends AppCompatActivity implements OnSyncFinishedListener, OnInitFinishedListener, SearchFragmentListener, OnImageSelectionListener, OnMoreMenuSelectListener, OnFruitSelectionListener, OnAffectionSelectionListener, OnAffectionMenuSelectListener, GeneralListSelectionListener, ToolBarVisibility {
+public class MainFragmentActivity extends AppCompatActivity implements OnNotificationTaskCompleteListener, OnSyncFinishedListener, OnInitFinishedListener, SearchFragmentListener, OnImageSelectionListener, OnMoreMenuSelectListener, OnFruitSelectionListener, OnAffectionSelectionListener, OnAffectionMenuSelectListener, GeneralListSelectionListener, ToolBarVisibility {
 
 
     public static final String SEARCH_VALUE = "searchValue";
@@ -155,6 +172,8 @@ public class MainFragmentActivity extends AppCompatActivity implements OnSyncFin
             new InitDatabaseTask(this, this).execute();
         }else{
             setFruitSelectorFragment();
+
+            new NotificationTask(this, this).execute();
         }
 
         View parent = findViewById(R.id.fragment_parent);
@@ -669,6 +688,118 @@ public class MainFragmentActivity extends AppCompatActivity implements OnSyncFin
     }
 
     public void onSyncFinished() {
+
         progressDialog.dismiss();
+
+        DownloadDAO downloadDAO = new DownloadDAO(getApplicationContext());
+        AppDAO appDAO = new AppDAO(getApplicationContext());
+        List<AppDAO.App> apps = appDAO.getApps();
+        List<String> filesToDownloadTemp = new ArrayList<>();
+
+        for (AppDAO.App app : apps) {
+            if (app.getIsDownloaded()) {
+                String[] temp = downloadDAO.getFilesToDownload(app.getFruitId(), app.getAffectionTypeId());
+                for(String file : temp){
+                    if(!FileUtil.hasFileBeenDownloaded(this, file)){
+                        filesToDownloadTemp.add(file);
+                    }
+                }
+            }
+        }
+
+        String[] filesToDownload = new String[filesToDownloadTemp.size()];
+        for (int i = 0; i < filesToDownloadTemp.size(); i++)
+            filesToDownload[i] = filesToDownloadTemp.get(i);
+
+        if (filesToDownload.length > 0) {
+            MyNotificationManager myNotificationManager = MyNotificationManager.getInstance(getApplicationContext());
+            myNotificationManager.startNotification(filesToDownload.length);
+
+            new Thread(
+                    new ImageDownloaderRunnable(getApplicationContext(), 250, 250, filesToDownload)
+            ).start();
+
+            new Thread(
+                    new AudioDownloaderRunnable(getApplicationContext(), filesToDownload)
+            ).start();
+        }
+    }
+
+    @Override
+    public void onNotificationTaskComplete(List<Notification> notifications) {
+        int lastUpdate = SharedPreferencesHelper.getLastUpdate(this);
+        int lastSurvey = SharedPreferencesHelper.getLastSurvey(this);
+        System.out.println(lastSurvey+" last update");
+
+        int lastUpdateIndex = -1;
+        int lastSurveyIndex = -1;
+        for(int i=0; i<notifications.size(); i++){
+            Notification notification = notifications.get(i);
+            if(notification.getType() == 1){
+                if(notification.getId()> lastUpdate){
+                    SharedPreferencesHelper.setLastUpdate(this, notification.getId());
+
+                    lastUpdateIndex = i;
+                    break;
+                }
+            }else{
+                if(notification.getId()> lastSurvey){
+                    SharedPreferencesHelper.setLastSurvey(this, notification.getId());
+
+                    lastSurveyIndex = i;
+                    break;
+                }
+            }
+        }
+
+
+        if(lastUpdateIndex != -1){
+            Notification updateNotification = notifications.get(lastUpdateIndex);
+            displayUpdatePopup(updateNotification);
+        }else if(lastSurveyIndex != -1){
+            Notification surveyNotification = notifications.get(lastSurveyIndex);
+            displaySurveyPopup(surveyNotification);
+        }
+    }
+
+
+    public void displayUpdatePopup(Notification notification){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(Html.fromHtml(notification.getContent())).setTitle(notification.getTitle())
+                .setPositiveButton("Update", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                        onStartSync();
+
+                    }
+                }).setNegativeButton("Later", null);
+        builder.create();
+        builder.show();
+    }
+
+    public void displaySurveyPopup(final Notification notification){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(Html.fromHtml(notification.getContent())).setTitle(notification.getTitle())
+                .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        String content = notification.getContent();
+
+                        Pattern p = Pattern.compile("href=\"(.*?)\"");
+                        Matcher m = p.matcher(content);
+                        String url = null;
+                        if (m.find()) {
+                            url = m.group(1);
+                        }
+
+                        if(url!=null){
+                            Intent intent = new Intent(Intent.ACTION_VIEW);
+                            intent.setData(Uri.parse(url));
+                            startActivity(intent);
+                        }
+                    }
+                }).setNegativeButton("Not now", null);
+        builder.create();
+        builder.show();
     }
 }

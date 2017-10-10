@@ -28,6 +28,7 @@ import clemson.edu.myipm.downloader.ImageDownloaderRunnable;
 import clemson.edu.myipm.downloader.MyNotificationManager;
 import clemson.edu.myipm.fragments.downloader.FruitSelectorDownloadFragment;
 import clemson.edu.myipm.fragments.downloader.OnFruitSelectionDownloadListener;
+import clemson.edu.myipm.utility.FileUtil;
 import clemson.edu.myipm.utility.SharedPreferencesHelper;
 
 public class DownloaderActivity extends AppCompatActivity implements OnFruitSelectionDownloadListener{
@@ -71,7 +72,11 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
         for(AppDAO.App item : selectedItems){
             if(appDAO.hasAppBeenDownloaded(item)){
                 String[] temp = downloadDAO.getFilesToDownload(item.getFruitId(),item.getAffectionTypeId());
-                filesToDownloadTemp.addAll(Arrays.asList(temp));
+                for(String file : temp){
+                    if(!FileUtil.hasFileBeenDownloaded(this, file)){
+                        filesToDownloadTemp.add(file);
+                    }
+                }
                 appDAO.setAppToDownloaded(item);
             }else{
                 appDAO.removeApp(item);

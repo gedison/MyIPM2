@@ -3,10 +3,6 @@ package clemson.edu.myipm.utility;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by gedison on 6/18/2017.
- */
-
 public class SharedPreferencesHelper {
 
     private static final String MY_PACKAGE = "edu.clemson.myipm";
@@ -15,8 +11,29 @@ public class SharedPreferencesHelper {
                                 AFFECTION_ID = "affection_id",
                                 DOWNLOADER_HELP="first_download_help_text",
                                 TABLE_HELP = "show_table_popup",
-                                TABLE_NO_DATA ="show_no_data_popup";
+                                TABLE_NO_DATA ="show_no_data_popup",
+                                LAST_SURVEY = "last_survey",
+                                LAST_UPDATE = "last_update";
 
+    public static int getLastUpdate(Context mContext){
+        SharedPreferences prefs = mContext.getSharedPreferences(MY_PACKAGE, Context.MODE_PRIVATE);
+        return prefs.getInt(LAST_UPDATE, 0);
+    }
+
+    public static int getLastSurvey(Context mContext){
+        SharedPreferences prefs = mContext.getSharedPreferences(MY_PACKAGE, Context.MODE_PRIVATE);
+        return prefs.getInt(LAST_SURVEY, 0);
+    }
+
+    public static void setLastUpdate(Context mContext, int lastId){
+        SharedPreferences prefs = mContext.getSharedPreferences(MY_PACKAGE, Context.MODE_PRIVATE);
+        prefs.edit().putInt(LAST_UPDATE, lastId).apply();
+    }
+
+    public static void setLastSurvey(Context mContext, int lastId){
+        SharedPreferences prefs = mContext.getSharedPreferences(MY_PACKAGE, Context.MODE_PRIVATE);
+        prefs.edit().putInt(LAST_SURVEY, lastId).apply();
+    }
 
     public static void setFruitId(Context mContext, String fruitId){
         SharedPreferences prefs = mContext.getSharedPreferences(MY_PACKAGE, Context.MODE_PRIVATE);

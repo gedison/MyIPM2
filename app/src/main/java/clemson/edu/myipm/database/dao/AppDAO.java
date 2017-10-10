@@ -42,6 +42,42 @@ public class AppDAO {
         dbAdapter.executeStatement(sql);
     }
 
+    public List<App> getApps(){
+        Map<String, AppFruit> items = new HashMap<>();
+        List<App> ret = new ArrayList<>();
+
+        DBAdapter dbAdapter = new DBAdapter(mContext);
+        String sql = "SELECT app.fruitName, app.typeName, " +
+                "fruit.color, app.fruitID, app.affectionTypeID, app.id " +
+                "FROM app " +
+                "INNER JOIN fruit ON fruit.id = app.fruitID " +
+                "ORDER BY fruit.name; ";
+
+        String[][] results = dbAdapter.getMultidimensionalArrayOfStringsFromCursor(dbAdapter.runSelectQuery(sql, true));
+
+        for(String[] result : results){
+            if(items.containsKey(result[0])){
+                items.get(result[0]).addApp(result);
+            }else{
+                items.put(result[0], new AppFruit(result));
+            }
+        }
+
+        Set<String> keys = items.keySet();
+        for(String key : keys){
+            AppFruit fruit = items.get(key);
+            List<App> apps = fruit.getApps();
+            for(App app : apps){
+                sql = "Select COUNT(*) FROM downloads WHERE downloads.appID = '"+app.getAppId()+"'";
+                results = dbAdapter.getMultidimensionalArrayOfStringsFromCursor(dbAdapter.runSelectQuery(sql, true));
+                app.setIsDownloaded(results[0][0]);
+                ret.add(app);
+            }
+        }
+
+        return ret;
+    }
+
     public List<AppFruit> getAppItems(){
         Map<String, AppFruit> items = new HashMap<String, AppFruit>();
         List<AppFruit> ret = new ArrayList<AppFruit>();
