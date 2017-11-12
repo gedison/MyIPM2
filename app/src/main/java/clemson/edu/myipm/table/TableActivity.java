@@ -83,9 +83,8 @@ public class TableActivity extends AppCompatActivity{
                     getResources().getString(R.string.ai_column1),
                     (SharedPreferencesHelper.getAffectionTypeId(this).equals("1")) ? getResources().getString(R.string.ai_column2) : getResources().getString(R.string.ai_column2_alt),
                     getResources().getString(R.string.ai_column3),
-                    getResources().getString(R.string.ai_column4),
-                    getResources().getString(R.string.ai_column5),
-                    getResources().getString(R.string.ai_column6),
+                    getResources().getString(R.string.ai_column4)
+            ,
                 },
                 //Trade Names
                 {
@@ -95,11 +94,11 @@ public class TableActivity extends AppCompatActivity{
                     getResources().getString(R.string.tn_column4),
                     getResources().getString(R.string.tn_column5),
                     getResources().getString(R.string.tn_column6),
-                        /*
+
                     getResources().getString(R.string.tn_column7),
                     getResources().getString(R.string.tn_column8),
                     getResources().getString(R.string.tn_column9),
-*/
+
                         getResources().getString(R.string.tn_column11),
                         getResources().getString(R.string.tn_column12),
                         getResources().getString(R.string.tn_column13),
@@ -168,9 +167,9 @@ public class TableActivity extends AppCompatActivity{
             affectionSelect.setVisibility(View.GONE);
         }
 
-        if(SharedPreferencesHelper.getTableHelp(this)){
-            showHelpPopup();
-        }
+//        if(SharedPreferencesHelper.getTableHelp(this)){
+//            showHelpPopup();
+//        }
 
         //Set Table
 

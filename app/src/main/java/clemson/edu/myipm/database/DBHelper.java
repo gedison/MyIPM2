@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 class DBHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "MyIPM_2.db";
-    private static final int DATABASE_VERSION = 35;
+    private static final int DATABASE_VERSION = 38;
 
     DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);

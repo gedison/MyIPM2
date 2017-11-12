@@ -21,8 +21,7 @@ public class AffectionActiveDAO {
     public TableEntry[] getAffectionActiveDataWithTypeWithAffection(int typeId, String affectionId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT DISTINCT active.name, active.codeName, active.color, affection_active.efficacy, " +
-                "affection_active.fieldUse, affection_active.consumer, affection_active.worker, " +
-                "affection_active.ecological, active.id, active.typeID FROM active " +
+                "affection_active.fieldUse, active.id, active.typeID FROM active " +
                 "INNER JOIN affection_active ON affection_active.activeID = active.id " +
                 "WHERE affection_active.affectionID = '"+affectionId+"' AND " +
                 "active.typeID = '"+typeId+"' " +
@@ -38,8 +37,7 @@ public class AffectionActiveDAO {
     public TableEntry[] getAffectionActiveDataWithTypeWithAffectionWithActiveId(int typeId, String affectionId, int activeId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT DISTINCT active.name, active.codeName, active.color, affection_active.efficacy, " +
-                "affection_active.fieldUse, affection_active.consumer, affection_active.worker, " +
-                "affection_active.ecological, active.id, active.typeID FROM active " +
+                "affection_active.fieldUse, active.id, active.typeID FROM active " +
                 "INNER JOIN affection_active ON affection_active.activeID = active.id " +
                 "WHERE affection_active.affectionID = '"+affectionId+"' AND " +
                 "active.id = '" +activeId+"' "+

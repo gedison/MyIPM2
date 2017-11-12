@@ -8,6 +8,7 @@ public class AffectionActive extends TableEntry{
     private String activeId, name, codeName, color, efficacy, fieldUse, consumer, worker, ecological;
     public static String[] EFFICACY_VALUES = {"none", "+", "++", "+++", "++++", "+++++", "?"};
 
+    public static String[] FRAC_RISK = {"Low", "Low-Medium", "Medium", "Medium-High", "High", "?"};
     /*
     public String getActiveId(){return activeId;}
     public String getName(){return name;}
@@ -37,10 +38,6 @@ public class AffectionActive extends TableEntry{
         this.color = color;
         this.efficacy = efficacy;
         this.fieldUse = fieldUse;
-        this.consumer = consumer;
-        this.worker = worker;
-        this.ecological = ecological;
-        this.activeId = activeId;
     }
 
     AffectionActive(String[] result){
@@ -49,13 +46,19 @@ public class AffectionActive extends TableEntry{
         color = result[2];
         efficacy = result[3];
         fieldUse = result[4];
-        consumer = result[5];
-        worker = result[6];
-        ecological = result [7];
-        activeId = result[8];
+        activeId = result[5];
     }
 
     private String getDisplayFromValue(String value){
+//        switch (value){
+//            case "-1":return "?";
+//            case "-2":return "N/A";
+//            case "-3":return "Bloom";
+//            case "-4":return "GT";
+//            case "-5":return "SS";
+//            default: return value;
+//        }
+
         switch (value){
             case "-1":return "?";
             case "-2":return "N/A";
@@ -86,10 +89,7 @@ public class AffectionActive extends TableEntry{
             case 0: return color;
             case 1: return color;
             case 2: return getValueColor("");
-            case 3: return getValueColor(fieldUse);
-            case 4: return getValueColor(consumer);
-            case 5: return getValueColor(worker);
-            case 6: return getValueColor(ecological);
+            case 3: return getValueColor("");
             default: return getValueColor("");
         }
     }
@@ -99,10 +99,7 @@ public class AffectionActive extends TableEntry{
             case 0: return name;
             case 1: return codeName;
             case 2: return (isNumeric(efficacy)) ? EFFICACY_VALUES[Integer.parseInt(efficacy)] : "?";
-            case 3: return getDisplayFromValue(fieldUse);
-            case 4: return getDisplayFromValue(consumer);
-            case 5: return getDisplayFromValue(worker);
-            case 6: return getDisplayFromValue(ecological);
+            case 3: return (isNumeric(efficacy)) ? FRAC_RISK[Integer.parseInt(fieldUse)] : "?";
             default: return "";
         }
     }
@@ -113,9 +110,6 @@ public class AffectionActive extends TableEntry{
             case 1: return codeName;
             case 2: return efficacy;
             case 3: return fieldUse;
-            case 4: return consumer;
-            case 5: return worker;
-            case 6: return ecological;
             default: return "";
         }
     }

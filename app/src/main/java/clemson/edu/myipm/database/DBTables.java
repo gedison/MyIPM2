@@ -437,7 +437,7 @@ public class DBTables {
     }
 
     private class AffectionActiveTable implements MyTable{
-        private String[] columnNames = {"id", "affectionID", "activeID", "efficacy", "fieldUse", "consumer", "worker", "ecological"};
+        private String[] columnNames = {"id", "affectionID", "activeID", "efficacy", "fieldUse"};
 
         public String getCreateStatement() {
             return "CREATE TABLE "+getTableName()
@@ -447,9 +447,6 @@ public class DBTables {
                     +" ,activeID INTEGER"
                     +" ,efficacy INTEGER"
                     +" ,fieldUse FLOAT"
-                    +" ,consumer FLOAT"
-                    +" ,worker FLOAT"
-                    +" ,ecological FLOAT"
                     +");";
         }
 
@@ -471,7 +468,7 @@ public class DBTables {
     }
 
     private class TradeTable implements MyTable{
-        private String[] columnNames = {"id", "fruitID", "name", "activeName", "activeID", "rate", "phi", "rei",
+        private String[] columnNames = {"id", "fruitID", "name", "activeName", "activeID", "rate", "phi", "rei","maxSpray", "maxProduct",
                 "aquaticAlgae",
                 "aquaticInvertebrates",
                 "avianAcute",
@@ -500,6 +497,8 @@ public class DBTables {
                     +" ,rate TEXT"
                     +" ,phi INTEGER"
                     +" ,rei INTEGER"
+                    +" ,maxSpray TEXT"
+                    +" ,maxProduct TEXT"
                     +" ,aquaticAlgae INTEGER"
                     +",aquaticInvertebrates INTEGER"
                     +",avianAcute INTEGER"

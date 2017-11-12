@@ -18,7 +18,7 @@ public class AffectionTradeDAO {
     public TableEntry[] getAffectionTradeDataWithTypeWithAffection(int typeId, String affectionId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT trade.name, trade.activeName, trade.rate, trade.phi, trade.rei, " +
-                "trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
+                "trade.maxSpray, trade.maxProduct, trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
                 "aquaticInvertebrates, avianAcute,avianReproductive,earthworm,fishChronic," +
                 "smallMammalAcute,dermalCancer,dermalAcute,inhalation,consumerCancer," +
                 "humanDietary,pollinatorOffCrop,pollinatorNoBloom,pollinatorInBloom "+
@@ -40,7 +40,7 @@ public class AffectionTradeDAO {
     public TableEntry[] getAffectionTradeDataWithTypeWithAffectionWithActiveId(int typeId, String affectionId, int activeId){
         DBAdapter dbAdapter = new DBAdapter(mContext);
         String sql = "SELECT trade.name, trade.activeName, trade.rate, trade.phi, trade.rei, " +
-                "trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
+                "trade.maxSpray, trade.maxProduct, trade.id, active.color, active.id, active.codeName, aquaticAlgae," +
                 "aquaticInvertebrates, avianAcute,avianReproductive,earthworm,fishChronic," +
                 "smallMammalAcute,dermalCancer,dermalAcute,inhalation,consumerCancer," +
                 "humanDietary,pollinatorOffCrop,pollinatorNoBloom,pollinatorInBloom "+

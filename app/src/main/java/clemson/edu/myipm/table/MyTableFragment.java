@@ -342,9 +342,9 @@ public class MyTableFragment extends Fragment implements
 
                 //Get String
                 String text = data[row].getDisplayAtIndex(column);
-                TextView columnText = this.setColor(text, data[row].getColorAtIndex(column), false);
+                TextView columnText = this.setColor(text, ((data[row].getColorAtIndex(column)).equals("ffffff") ? "000000" : data[row].getColorAtIndex(column)), false);
                 TextView dummyText = this.setTableCell(text, false);
-                if(column>=6)columnText.setBackgroundColor(Color.parseColor('#' + data[row].getColorAtIndex(column)));
+                if(column>=9)columnText.setBackgroundColor(Color.parseColor('#' + data[row].getColorAtIndex(column)));
                 dummyText.setHeight(0);
 
                 tempRow.addView(columnText);
