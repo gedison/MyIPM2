@@ -4,7 +4,7 @@
              android:layout_height="match_parent"
               android:orientation="vertical"
               android:background="@color/background"
-             tools:context="clemson.edu.myipm.fragments.affection_menu.AffectionMenu">
+             tools:context="clemson.edu.myipm2.fragments.affection_menu.AffectionMenu">
 
     <TextView
         android:id="@+id/textView"
@@ -19,7 +19,7 @@
         android:gravity="center"
         android:textColor="@color/red"/>
 
-    <clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView
+    <clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView
         android:id="@+id/diagnostics_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:background="@color/white"
         android:gravity="center"
         android:tag="diagnostic" >
-    </clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView>
+    </clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView>
 
     <TextView
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
         android:textColor="@color/red"
         android:text="@string/general_list_title"/>
 
-    <clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView
+    <clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView
         android:id="@+id/general_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,6 +49,6 @@
         android:background="@color/white"
         android:gravity="center"
         android:tag="general" >
-    </clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView>
+    </clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView>
 
 </LinearLayout>

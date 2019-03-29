@@ -4,7 +4,7 @@
              android:layout_height="match_parent"
               android:orientation="vertical"
               android:background="@color/background"
-             tools:context="clemson.edu.myipm.fragments.affection_menu.AffectionMenu">
+             tools:context="clemson.edu.myipm2.fragments.affection_menu.AffectionMenu">
 
     <TextView
         android:id="@+id/more_title"
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:textColor="@color/red"/>
 
-    <clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView
+    <clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView
         android:id="@+id/more_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:background="@color/white"
         android:gravity="center"
         android:tag="more" >
-    </clemson.edu.myipm.fragments.affection_menu.ExpandableHeightListView>
+    </clemson.edu.myipm2.fragments.affection_menu.ExpandableHeightListView>
 
 
 

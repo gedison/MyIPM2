@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyIPM</string>
     <string name="welcome_text">Welcome to\n<b>MyIPM</b></string>
-    <string name="copywrite"> ©2017 - MyIPM</string>
+    <string name="copywrite"> ©2019 - MyIPM</string>
     <string name="title_activity_update">UpdateActivity</string>
     <string name="title_activity_main_fragment">MyIPM</string>
     <string name="action_settings">Settings</string>
@@ -49,8 +49,10 @@
 
     <string name="tn_column1">Trade Name</string>
     <string name="tn_column2">Active Ingredient</string>
+
     <string name="tn_column3">FRAC Code</string>
     <string name="tn_column3_alt">IRAC Code</string>
+    <string name="tn_column26">Efficacy</string>
     <string name="tn_column4">Rate/Acre</string>
     <string name="tn_column5">PHI/days</string>
     <string name="tn_column6">REI/hrs</string>
@@ -58,22 +60,24 @@
     <string name="tn_column8">Max Product</string>
     <string name="tn_column9"># High Risk</string>
     <string name="tn_column10">Ecolog.\nEIQ</string>
+    <string name="tn_column11">Pollinator\nOff Crop</string>
+    <string name="tn_column12">Pollinator\nNo Bloom</string>
+    <string name="tn_column13">Pollinator\nIn Bloom</string>
+    <string name="tn_column14">Human Dietary</string>
+    <string name="tn_column15">Dermal Cancer</string>
+    <string name="tn_column16">Dermal Acute</string>
+    <string name="tn_column17">Inhalation</string>
+    <string name="tn_column18">Consumer\nCancer</string>
+    <string name="tn_column19">Aquatic\nAlgae</string>
+    <string name="tn_column20">Aquatic\nInvertebrates</string>
+    <string name="tn_column21">Avian Acute</string>
+    <string name="tn_column22">Avian\nReproductive</string>
+    <string name="tn_column23">Earthworm</string>
+    <string name="tn_column24">Fish Chronic</string>
+    <string name="tn_column25">Small\nMammal Acute</string>
 
-    <string name="tn_column11">Aquatic\nAlgae</string>
-    <string name="tn_column12">Aquatic\nInvertebrates</string>
-    <string name="tn_column13">Avian Acute</string>
-    <string name="tn_column14">Avian\nReproductive</string>
-    <string name="tn_column15">Earthworm</string>
-    <string name="tn_column16">Fish Chronic</string>
-    <string name="tn_column17">Small\nMammal Acute</string>
-    <string name="tn_column18">Dermal Cancer</string>
-    <string name="tn_column19">Dermal Acute</string>
-    <string name="tn_column20">Inhalation</string>
-    <string name="tn_column21">Consumer\nCancer</string>
-    <string name="tn_column22">Human Dietary</string>
-    <string name="tn_column23">Pollinator\nOff Crop</string>
-    <string name="tn_column24">Pollinator\nNo Bloom</string>
-    <string name="tn_column25">Pollinator\nIn Bloom</string>
+
+
 
 
     <string name="title_activity_downloader">Downloader</string>

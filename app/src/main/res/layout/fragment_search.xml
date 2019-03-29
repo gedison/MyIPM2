@@ -10,5 +10,5 @@
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="clemson.edu.myipm.fragments.main_screen.FruitSelectorFragment"
+    tools:context="clemson.edu.myipm2.fragments.main_screen.FruitSelectorFragment"
     tools:listitem="@layout/fragment_fruitselector"/>

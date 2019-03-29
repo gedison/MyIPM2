@@ -18,7 +18,7 @@
             android:layout_height="wrap_content" >
         </TableLayout>
 
-        <clemson.edu.myipm.table.utility.MyScrollViewHorizontal
+        <clemson.edu.myipm2.table.utility.MyScrollViewHorizontal
             android:id="@+id/top_right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
             </TableLayout>
-        </clemson.edu.myipm.table.utility.MyScrollViewHorizontal>
+        </clemson.edu.myipm2.table.utility.MyScrollViewHorizontal>
     </LinearLayout>
 
     <LinearLayout
@@ -36,7 +36,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" >
 
-        <clemson.edu.myipm.table.utility.MyScrollView
+        <clemson.edu.myipm2.table.utility.MyScrollView
             android:id="@+id/bottom_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -47,15 +47,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" >
             </TableLayout>
-        </clemson.edu.myipm.table.utility.MyScrollView>
+        </clemson.edu.myipm2.table.utility.MyScrollView>
 
-        <clemson.edu.myipm.table.utility.MyScrollView
+        <clemson.edu.myipm2.table.utility.MyScrollView
             android:id="@+id/bottom_right"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fillViewport="true" >
 
-            <clemson.edu.myipm.table.utility.MyScrollViewHorizontal
+            <clemson.edu.myipm2.table.utility.MyScrollViewHorizontal
                 android:id="@+id/bottom_right_hor"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" >
                 </TableLayout>
-            </clemson.edu.myipm.table.utility.MyScrollViewHorizontal>
-        </clemson.edu.myipm.table.utility.MyScrollView>
+            </clemson.edu.myipm2.table.utility.MyScrollViewHorizontal>
+        </clemson.edu.myipm2.table.utility.MyScrollView>
     </LinearLayout>
 </LinearLayout>

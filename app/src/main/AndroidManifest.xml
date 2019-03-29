@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="clemson.edu.myipm"
+<manifest package="clemson.edu.myipm2"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainFragmentActivity"
+            android:name="clemson.edu.myipm2.MainFragmentActivity"
             android:label="@string/title_activity_main_fragment"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -23,11 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".table.TableActivity"
+            android:name="clemson.edu.myipm2.table.TableActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".DownloaderActivity"
+            android:name="clemson.edu.myipm2.DownloaderActivity"
             android:label="@string/title_activity_downloader"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>

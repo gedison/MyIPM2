@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="clemson.edu.myipm.MainFragmentActivity">
+    tools:context="clemson.edu.myipm2.MainFragmentActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -23,15 +23,15 @@
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
 
-            <Button
-                android:id="@+id/sync"
-                android:layout_width="30dp"
-                android:layout_gravity="end"
-                android:background="@drawable/sync"
-                android:layout_height="30dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginEnd="15dp"
-                />
+            <!--<Button-->
+                <!--android:id="@+id/sync"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_gravity="end"-->
+                <!--android:background="@drawable/sync"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginEnd="15dp"-->
+                <!--/>-->
 
             <Button
                 android:id="@+id/settings"
@@ -45,7 +45,7 @@
 
 
 
-            <clemson.edu.myipm.fragments.search.ArrayAdapterSearchView
+            <clemson.edu.myipm2.fragments.search.ArrayAdapterSearchView
                 android:id="@+id/search"
                 android:icon="@drawable/search"
                 android:showAsAction="ifRoom|collapseActionView"
