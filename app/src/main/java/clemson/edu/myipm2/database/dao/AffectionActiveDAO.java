@@ -49,6 +49,7 @@ public class AffectionActiveDAO {
                 "ORDER BY active.name";
 
 
+
         String[][] results = dbAdapter.getMultidimensionalArrayOfStringsFromCursor(dbAdapter.runSelectQuery(sql, true));
         TableEntry[] ret = new TableEntry[results.length];
         for(int i = 0; i<results.length; i++){

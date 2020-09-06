@@ -19,7 +19,7 @@ import java.util.List;
  */
 
 public class InitDatabaseTask extends AsyncTask<Void, Void, Void> {
-    private Context context;
+    private final Context context;
     private OnInitFinishedListener listener;
 
     public InitDatabaseTask(Context context, OnInitFinishedListener initFinishedListener){

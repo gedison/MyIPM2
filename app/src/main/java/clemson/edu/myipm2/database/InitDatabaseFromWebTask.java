@@ -16,43 +16,46 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class InitDatabaseFromWebTask extends AsyncTask<Void, Void, Void> {
-    private Context context;
-    private OnSyncFinishedListener listener;
+public class InitDatabaseFromWebTask extends AsyncTask<Void, Void, Boolean> {
+
     private static final String BASE_URL = "http://myipm.bugwoodcloud.org/test/myipm.api.php/";
 
+    private final DBAdapter mDBAdapter;
+    private final OnSyncFinishedListener listener;
+
     public InitDatabaseFromWebTask(Context context, OnSyncFinishedListener initFinishedListener){
-        this.context = context;
+
+        mDBAdapter = new DBAdapter(context);
         listener = initFinishedListener;
     }
 
-    protected Void doInBackground(Void... voids) {
-        DBAdapter mDBAdapter = new DBAdapter(context);
+    protected Boolean doInBackground(Void... voids) {
         mDBAdapter.deleteContent();
 
         DBTables tables = new DBTables();
         for(int i=0; i<tables.size()-1; i++) {
             DBTables.MyTable table = tables.getIthTableInstance(i);
             String jsonFileContents = getStringFromURL(table.getURLName());
-            if(jsonFileContents == null)return null;
+            if(jsonFileContents == null){
+                return false;
+            }
 
             try {
-                //System.out.println(table.getTableName());
                 JSONArray mJSONArray = new JSONArray(jsonFileContents);
                 List<String[]> rows = getRowsFromJSONArray(mJSONArray, table);
                 mDBAdapter.insertRowsIntoTable(rows, table);
             } catch (JSONException e) {
-                e.printStackTrace();
+                return false;
             }catch (NullPointerException e){
-                e.printStackTrace();
+                return false;
             }
         }
 
-        return null;
+        return true;
     }
 
-    protected void onPostExecute(Void v) {
-        listener.onSyncFinished();
+    protected void onPostExecute(Boolean syncSucceeded) {
+        listener.onSyncFinished(syncSucceeded);
     }
 
 
@@ -78,9 +81,7 @@ public class InitDatabaseFromWebTask extends AsyncTask<Void, Void, Void> {
             if(inputStream != null){
                 try {
                     inputStream.close();
-                }catch (IOException e){
-
-                }
+                }catch (IOException ignored){ }
             }
         }
 

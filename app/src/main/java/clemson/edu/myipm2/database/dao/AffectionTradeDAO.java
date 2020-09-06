@@ -49,7 +49,6 @@ public class AffectionTradeDAO {
                 "INNER JOIN affection_trade on trade.id = affection_trade.tradeID " +
                 "INNER JOIN active on trade.activeID = active.id " +
                 "INNER JOIN affection_active ON affection_active.activeID = active.id AND affection_active.affectionID = '"+affectionId+"' " +
-
                 "WHERE affection_trade.affectionID = '"+affectionId+"' " +
                 "AND trade.activeId = '"+activeId+"' "+
                 "AND trade.typeID = '"+typeId+"' ORDER BY trade.name";

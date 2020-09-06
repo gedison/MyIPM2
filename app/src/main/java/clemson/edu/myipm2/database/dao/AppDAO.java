@@ -142,7 +142,9 @@ public class AppDAO {
                 String[][] results = dbAdapter.getMultidimensionalArrayOfStringsFromCursor(
                         dbAdapter.runSelectQuery(sql, true));
                 app.setIsDownloaded(results[0][0]);
-            }ret.add(fruit);
+            }
+
+            ret.add(fruit);
         }
 
         return ret;
@@ -166,6 +168,8 @@ public class AppDAO {
             this.fruitId = fruitId;
             this.fruitName = fruitName;
         }
+
+
 
 
         public String toString(){
@@ -199,8 +203,10 @@ public class AppDAO {
         boolean isDownloaded = false;
 
         App(String bundle[]){
+            fruitName = bundle[0];
+            affectionType = bundle[1];
+            fruitColor = bundle[2];
             fruitId = bundle[3];
-            affectionType =  bundle[1];
             affectionTypeId = bundle[4];
             appId = bundle[5];
         }

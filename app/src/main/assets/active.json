@@ -1,1 +1,2846 @@
-[{"id":826,"name":"Acibenzolar-S-Methyl","codeID":331,"codeName":"P1","color":"575353","typeName":"Conventional","typeID":1},{"id":827,"name":"Azoxystrobin","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":828,"name":"Difenoconazole; Azoxystrobin","codeID":321,"codeName":"3; 11","color":"1A3FD2:169137","typeName":"Conventional","typeID":1},{"id":829,"name":"Propiconazole; Azoxystrobin","codeID":321,"codeName":"3; 11","color":"1A3FD2:169137","typeName":"Conventional","typeID":1},{"id":830,"name":"Bacillus subtilis","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":831,"name":"Bacillus amyloliquefaciens","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":832,"name":"Bacillus pumilus","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":833,"name":"Boscalid","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":834,"name":"Captan","codeID":329,"codeName":"M4","color":"090808","typeName":"Conventional","typeID":1},{"id":835,"name":"Clove, Rosemary, Thyme oils","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":836,"name":"Copper hydroxide","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":837,"name":"Copper Sulfate ","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":838,"name":"Cyprodinil","codeID":315,"codeName":"9","color":"C07C16","typeName":"Conventional","typeID":1},{"id":839,"name":"Cyprodinil; Fludioxonil","codeID":325,"codeName":"9; 12","color":"C07C16:0EAFC1","typeName":"Conventional","typeID":1},{"id":840,"name":"Difenoconazole; Cyprodinil","codeID":324,"codeName":"3; 9","color":"1A3FD2:C07C16","typeName":"Conventional","typeID":1},{"id":841,"name":"Difenoconazole; Propiconazole","codeID":336,"codeName":"3; 3","color":"1A3FD2:1A3FD2","typeName":"Conventional","typeID":1},{"id":842,"name":"Fenarimol","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":843,"name":"Fenhexamid","codeID":319,"codeName":"17","color":"000080","typeName":"Conventional","typeID":1},{"id":844,"name":"Fenhexamid; Captan","codeID":323,"codeName":"17; M4","color":"000080:090808","typeName":"Conventional","typeID":1},{"id":845,"name":"Fludioxonil","codeID":317,"codeName":"12","color":"0EAFC1","typeName":"Conventional","typeID":1},{"id":846,"name":"Fluoxastrobin","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":847,"name":"Fluxapyroxad; Pyraclostrobin","codeID":322,"codeName":"7; 11","color":"FF6666:169137","typeName":"Conventional","typeID":1},{"id":848,"name":"Hydrogen dioxide","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":849,"name":"Iprodione","codeID":311,"codeName":"2","color":"990000","typeName":"Conventional","typeID":1},{"id":850,"name":"Mefenoxam","codeID":313,"codeName":"4","color":"21C600","typeName":"Conventional","typeID":1},{"id":851,"name":"Metalaxyl","codeID":313,"codeName":"4","color":"21C600","typeName":"Conventional","typeID":1},{"id":852,"name":"Myclobutanil","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":853,"name":"Neem oil","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":854,"name":"Penthiopyrad","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":855,"name":"Phosphonate","codeID":320,"codeName":"33","color":"800000","typeName":"Conventional","typeID":1},{"id":856,"name":"Polyoxin D zinc salt","codeID":340,"codeName":"19","color":"179207","typeName":"Conventional","typeID":1},{"id":857,"name":"Potassium bicarbonate","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":858,"name":"Propiconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":859,"name":"Pyraclostrobin","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":860,"name":"Boscalid; Pyraclostrobin","codeID":322,"codeName":"7; 11","color":"FF6666:169137","typeName":"Conventional","typeID":1},{"id":861,"name":"Pyrimethanil","codeID":315,"codeName":"9","color":"C07C16","typeName":"Conventional","typeID":1},{"id":862,"name":"Quinoxyfen","codeID":318,"codeName":"13","color":"006400","typeName":"Conventional","typeID":1},{"id":863,"name":"Reynoutria sachalinensis ","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":864,"name":"Streptomyces lydicus","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":865,"name":"Sulfur","codeID":327,"codeName":"M2","color":"090808","typeName":"Organic","typeID":2},{"id":866,"name":"Tebuconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":867,"name":"Tetraconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":868,"name":"Thiophanate-Methyl","codeID":310,"codeName":"1","color":"9717C6","typeName":"Conventional","typeID":1},{"id":869,"name":"Thiram","codeID":328,"codeName":"M3","color":"090808","typeName":"Conventional","typeID":1},{"id":870,"name":"Trichoderma species","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":871,"name":"Trifloxystrobin","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":872,"name":"Fluopyram; trifloxystrobin","codeID":322,"codeName":"7; 11","color":"FF6666:169137","typeName":"Conventional","typeID":1},{"id":873,"name":"Triflumizole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":874,"name":"Cuprous oxide","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":875,"name":"Copper octanoate","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":876,"name":"Paraffinic oil","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":877,"name":"Petroleum oil","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":878,"name":"Gliocladium catelunatum","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":879,"name":"Copper hydroxide","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":880,"name":"Copper Sulfate ","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":881,"name":"Copper octanoate","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":882,"name":"Cuprous oxide","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":883,"name":"Ferbam","codeID":328,"codeName":"M3","color":"090808","typeName":"Conventional","typeID":1},{"id":884,"name":"Chlorothalonil","codeID":337,"codeName":"M5","color":"090808","typeName":"Conventional","typeID":1},{"id":885,"name":"Thiophanate-Methyl; propiconazole","codeID":338,"codeName":"1; 3","color":"9717C6:1A3FD2","typeName":"Conventional","typeID":1},{"id":886,"name":"Oxytetracycline","codeID":339,"codeName":"41","color":"FFE53D","typeName":"Conventional","typeID":1},{"id":887,"name":"Copper ammonium complex","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":888,"name":"Flutriafol","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":889,"name":"Fenbuconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":890,"name":"Copper ammonium complex","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":891,"name":"Sulfur","codeID":327,"codeName":"M2","color":"090808","typeName":"Conventional","typeID":1},{"id":892,"name":"Cyflyfenamid","codeID":341,"codeName":"U6","color":"090808","typeName":"Conventional","typeID":1},{"id":893,"name":"Ziram","codeID":328,"codeName":"M3","color":"090808","typeName":"Conventional","typeID":1},{"id":894,"name":"Metconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":895,"name":"Fluazinam","codeID":342,"codeName":"29","color":"F836FF","typeName":"Conventional","typeID":1},{"id":896,"name":"Prothioconazole","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":897,"name":"BLAD lupine extract","codeID":345,"codeName":"M12","color":"0F0F0F","typeName":"Conventional","typeID":1},{"id":898,"name":"Isofetamid","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":899,"name":"Basic Copper Sulfate","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":900,"name":"Basic Copper Sulfate","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":901,"name":"Tebuconazole; fluopyram","codeID":343,"codeName":"3; 7","color":"1A3FD2:FF6666","typeName":"Conventional","typeID":1},{"id":902,"name":"fluopyram; pyrimethanil","codeID":344,"codeName":"7; 9","color":"FF6666:C07C16","typeName":"Conventional","typeID":1},{"id":903,"name":"fluopyram","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":904,"name":"Tebuconazole; azoxystrobin","codeID":321,"codeName":"3; 11","color":"1A3FD2:169137","typeName":"Conventional","typeID":1},{"id":905,"name":"Copper oxychloride","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":906,"name":"Copper diammonia diacetate complex","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":907,"name":"Copper diammonia diacetate complex","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":908,"name":"Mancozeb","codeID":328,"codeName":"M3","color":"090808","typeName":"Conventional","typeID":1},{"id":909,"name":"Dimethomorph","codeID":346,"codeName":"40","color":"497490","typeName":"Conventional","typeID":1},{"id":910,"name":"Bacillus mycoides ","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":911,"name":"Mancozeb; zoxamide ","codeID":348,"codeName":"M3; 22","color":"090808:52FFF9","typeName":"Conventional","typeID":1},{"id":912,"name":"Copper hydroxide; Mancozeb","codeID":349,"codeName":"M1; M3","color":"090808:090808","typeName":"Conventional","typeID":1},{"id":913,"name":"Copper sulfate pentahydrate","codeID":326,"codeName":"M1","color":"090808","typeName":"Organic","typeID":2},{"id":914,"name":"Copper sulfate pentahydrate","codeID":326,"codeName":"M1","color":"090808","typeName":"Conventional","typeID":1},{"id":915,"name":"Hydrogen dioxide; peroxyacetic acid","codeID":350,"codeName":"?; ?","color":"179207:179207","typeName":"Organic","typeID":2},{"id":916,"name":"Hydrogen dioxide; phosphonate","codeID":351,"codeName":"?; 33","color":"179207:800000","typeName":"Conventional","typeID":1},{"id":917,"name":"Borax","codeID":334,"codeName":"?","color":"179207","typeName":"Conventional","typeID":1},{"id":918,"name":"Cyazofamid","codeID":352,"codeName":"21","color":"1E6B5B","typeName":"Conventional","typeID":1},{"id":919,"name":"Fenamidone","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":920,"name":"Mandipropamid","codeID":346,"codeName":"40","color":"497490","typeName":"Conventional","typeID":1},{"id":921,"name":"Difenoconazole; mandipropamid","codeID":353,"codeName":"3; 40","color":"1A3FD2:497490","typeName":"Conventional","typeID":1},{"id":922,"name":"Mancozeb; mefenoxam","codeID":354,"codeName":"M3; 4","color":"090808:21C600","typeName":"Conventional","typeID":1},{"id":923,"name":"Copper hydroxide; mefenoxam","codeID":355,"codeName":"M1; 4","color":"090808:21C600","typeName":"Conventional","typeID":1},{"id":924,"name":"Kresoxim-methyl","codeID":316,"codeName":"11","color":"169137","typeName":"Conventional","typeID":1},{"id":925,"name":"Cymoxanil; famoxadone","codeID":357,"codeName":"27; 11","color":"FF0303:169137","typeName":"Conventional","typeID":1},{"id":926,"name":"Tea tree oil","codeID":358,"codeName":"46","color":"5F247F","typeName":"Conventional","typeID":1},{"id":927,"name":"Tea tree oil","codeID":358,"codeName":"46","color":"5F247F","typeName":"Organic","typeID":2},{"id":928,"name":"Azoxystrobin; flutriafol","codeID":359,"codeName":"11; 3","color":"169137:1A3FD2","typeName":"Conventional","typeID":1},{"id":929,"name":"Laminarin","codeID":332,"codeName":"P4","color":"575353","typeName":"Conventional","typeID":1},{"id":930,"name":"Ametoctradin; dimethomorph","codeID":361,"codeName":"45; 40","color":"E225BB:497490","typeName":"Conventional","typeID":1},{"id":931,"name":"Benzovindiflupyr","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":932,"name":"Triadimefon","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":933,"name":"Mineral oil","codeID":334,"codeName":"?","color":"179207","typeName":"Conventional","typeID":1},{"id":934,"name":"Mineral oil","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":935,"name":"Potassium salts of fatty acids","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":936,"name":"Calcium Polysulfides","codeID":334,"codeName":"?","color":"179207","typeName":"Conventional","typeID":1},{"id":938,"name":"Aureobasidium pullulans","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":941,"name":"Bacillus subtilis","codeID":397,"codeName":"44","color":"FFBB54","typeName":"Organic","typeID":2},{"id":942,"name":"Bacillus amyloliquefaciens","codeID":397,"codeName":"44","color":"FFBB54","typeName":"Organic","typeID":2},{"id":964,"name":"Reynoutria sachalinensis ","codeID":333,"codeName":"P5","color":"575353","typeName":"Organic","typeID":2},{"id":989,"name":"Lime sulfur","codeID":327,"codeName":"M2","color":"090808","typeName":"Conventional","typeID":1},{"id":990,"name":"Lime sulfur","codeID":327,"codeName":"M2","color":"090808","typeName":"Organic","typeID":2},{"id":994,"name":"Dodine","codeID":396,"codeName":"U12","color":"000000","typeName":"Conventional","typeID":1},{"id":995,"name":"Phosphorous acid and salts","codeID":320,"codeName":"33","color":"800000","typeName":"Conventional","typeID":1},{"id":996,"name":"Aluminum tris","codeID":320,"codeName":"33","color":"800000","typeName":"Conventional","typeID":1},{"id":997,"name":"Metiram","codeID":328,"codeName":"M3","color":"090808","typeName":"Conventional","typeID":1},{"id":998,"name":"Streptomycin sulfate","codeID":398,"codeName":"25","color":"FF5768","typeName":"Conventional","typeID":1},{"id":999,"name":"Tebuconazole; Trifloxystrobin","codeID":321,"codeName":"3; 11","color":"1A3FD2:169137","typeName":"Conventional","typeID":1},{"id":1000,"name":"Kasugamycin Hydrochloride Hydrate","codeID":399,"codeName":"24","color":"FF99B4","typeName":"Conventional","typeID":1},{"id":1001,"name":"Fluopyram; Pyrimethanil","codeID":344,"codeName":"7; 9","color":"FF6666:C07C16","typeName":"Conventional","typeID":1},{"id":1002,"name":"Pantoea agglomerans ","codeID":334,"codeName":"?","color":"179207","typeName":"Organic","typeID":2},{"id":1003,"name":"Bacillus amyloliquefaciens ","codeID":397,"codeName":"44","color":"FFBB54","typeName":"Conventional","typeID":1},{"id":1004,"name":"Copper hydroxide; Copper oxychloride","codeID":401,"codeName":"M1; M1","color":"090808:090808","typeName":"Conventional","typeID":1},{"id":1005,"name":"Copper hydroxide; Copper oxychloride","codeID":401,"codeName":"M1; M1","color":"090808:090808","typeName":"Organic","typeID":2},{"id":1006,"name":"Prohexadione calcium","codeID":334,"codeName":"?","color":"179207","typeName":"Conventional","typeID":1},{"id":1009,"name":"Fluopyram; Tebuconazole","codeID":404,"codeName":"7; 3","color":"FF6666:1A3FD2","typeName":"Conventional","typeID":1},{"id":1010,"name":"Fluxapyroxad","codeID":314,"codeName":"7","color":"FF6666","typeName":"Conventional","typeID":1},{"id":1011,"name":"Bacillus mycoides isolate J","codeID":405,"codeName":"P06","color":"C694FF","typeName":"Organic","typeID":2},{"id":1012,"name":"Bacillus mycoides isolate J","codeID":405,"codeName":"P06","color":"C694FF","typeName":"Conventional","typeID":1},{"id":1013,"name":"Phosmet","codeID":406,"codeName":"1B","color":"94C2FF","typeName":"Conventional","typeID":1},{"id":1014,"name":"Malathion","codeID":406,"codeName":"1B","color":"94C2FF","typeName":"Conventional","typeID":1},{"id":1015,"name":"Imidacloprid","codeID":408,"codeName":"4A","color":"F5769C","typeName":"Conventional","typeID":1},{"id":1016,"name":"Spinosad","codeID":407,"codeName":"5","color":"71D1C7","typeName":"Organic","typeID":2},{"id":1017,"name":"Acetamiprid","codeID":408,"codeName":"4A","color":"F5769C","typeName":"Conventional","typeID":1},{"id":1018,"name":"Carbaryl","codeID":409,"codeName":"1A","color":"5C8DFF","typeName":"Conventional","typeID":1},{"id":1019,"name":"Thiamethoxam","codeID":408,"codeName":"4A","color":"F5769C","typeName":"Conventional","typeID":1},{"id":1020,"name":"Bifenthrin","codeID":312,"codeName":"3","color":"1A3FD2","typeName":"Conventional","typeID":1},{"id":1021,"name":"Zeta-cypermethrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1022,"name":"Diazinon","codeID":406,"codeName":"1B","color":"94C2FF","typeName":"Conventional","typeID":1},{"id":1023,"name":"Methomyl","codeID":409,"codeName":"1A","color":"5C8DFF","typeName":"Conventional","typeID":1},{"id":1024,"name":"Novaluron","codeID":413,"codeName":"15","color":"70256B","typeName":"Conventional","typeID":1},{"id":1025,"name":"Methoxyfenozide","codeID":414,"codeName":"18A","color":"2A9E0D","typeName":"Conventional","typeID":1},{"id":1026,"name":"Tebufenozide","codeID":414,"codeName":"18A","color":"2A9E0D","typeName":"Conventional","typeID":1},{"id":1027,"name":"Indoxacarb","codeID":347,"codeName":"22","color":"52FFF9","typeName":"Conventional","typeID":1},{"id":1028,"name":"Esfenvalerate","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1029,"name":"Kaolin clay","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1030,"name":"Chlorantraniliprole \/ Rynaxypyr","codeID":417,"codeName":"28","color":"64A9DE","typeName":"Conventional","typeID":1},{"id":1031,"name":"Fenpropathrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1032,"name":"Cyantraniliprole \/ Cyazypyr","codeID":417,"codeName":"28","color":"64A9DE","typeName":"Conventional","typeID":1},{"id":1033,"name":"Endosulfan","codeID":418,"codeName":"2A","color":"0700C7","typeName":"Conventional","typeID":1},{"id":1034,"name":"Horticultural oil","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Conventional","typeID":1},{"id":1035,"name":"Verdant horticultural oil","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1036,"name":"Abamectin","codeID":419,"codeName":"6","color":"205CAB","typeName":"Conventional","typeID":1},{"id":1037,"name":"Acequinocyl","codeID":420,"codeName":"20B","color":"81E014","typeName":"Conventional","typeID":1},{"id":1038,"name":"Bifenazate","codeID":421,"codeName":"20D","color":"60A60F","typeName":"Conventional","typeID":1},{"id":1039,"name":"Etoxazole","codeID":422,"codeName":"10B","color":"F0D739","typeName":"Conventional","typeID":1},{"id":1040,"name":"Fenpyroximate","codeID":423,"codeName":"21A","color":"FF0000","typeName":"Conventional","typeID":1},{"id":1041,"name":"Hexakis","codeID":424,"codeName":"12B","color":"A12516","typeName":"Conventional","typeID":1},{"id":1042,"name":"Hexythiazox","codeID":425,"codeName":"10A","color":"E8E800","typeName":"Conventional","typeID":1},{"id":1043,"name":"Sucrose Octanoate","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1044,"name":"Spiromesifen","codeID":426,"codeName":"23","color":"324A30","typeName":"Conventional","typeID":1},{"id":1045,"name":"Rosemary&Peppermint Oils","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1046,"name":"Insecticidal Soap","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1047,"name":"Spinetoram","codeID":407,"codeName":"5","color":"71D1C7","typeName":"Conventional","typeID":1},{"id":1048,"name":"Bacillus thuringiensis","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1049,"name":"Beta cyfluthrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1050,"name":"Cyfluthrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1051,"name":"Gamma cyhalothrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1052,"name":"Lambda cyhalothrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1053,"name":"Permethrin","codeID":411,"codeName":"3A","color":"CC8E12","typeName":"Conventional","typeID":1},{"id":1054,"name":"Clothianidin","codeID":408,"codeName":"4A","color":"F5769C","typeName":"Conventional","typeID":1},{"id":1055,"name":"Dormant (superior) oil","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Conventional","typeID":1},{"id":1056,"name":"Buprofezin","codeID":427,"codeName":"7C","color":"9C0345","typeName":"Conventional","typeID":1},{"id":1057,"name":"Spirotetramat","codeID":426,"codeName":"23","color":"324A30","typeName":"Conventional","typeID":1},{"id":1058,"name":"Summer oil","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Conventional","typeID":1},{"id":1059,"name":"Chlorpyrifos","codeID":406,"codeName":"1B","color":"94C2FF","typeName":"Conventional","typeID":1},{"id":1060,"name":"Flubendiamide","codeID":417,"codeName":"28","color":"64A9DE","typeName":"Conventional","typeID":1},{"id":1061,"name":"Pyriproxyfen","codeID":427,"codeName":"7C","color":"9C0345","typeName":"Conventional","typeID":1},{"id":1062,"name":"CpGV","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Organic","typeID":2},{"id":1063,"name":"CpGV","codeID":416,"codeName":"Unknown","color":"636680","typeName":"Conventional","typeID":1},{"id":1064,"name":"Cyflumetofen","codeID":398,"codeName":"25","color":"FF5768","typeName":"Conventional","typeID":1},{"id":1065,"name":"Flupyradifurone","codeID":431,"codeName":"4D","color":"FF66FF","typeName":"Conventional","typeID":1}]
+[
+  {
+    "id": 1112,
+    "name": "13-Octadecadien-1-yl Acetate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1036,
+    "name": "Abamectin",
+    "codeID": 419,
+    "codeName": "6",
+    "color": "205CAB",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1186,
+    "name": "Abamectin\/Cyantraniliprole",
+    "codeID": 469,
+    "codeName": "28; 6",
+    "color": "32546F:205CAB",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1037,
+    "name": "Acequinocyl",
+    "codeID": 420,
+    "codeName": "20B",
+    "color": "81E014",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1017,
+    "name": "Acetamiprid",
+    "codeID": 408,
+    "codeName": "4A",
+    "color": "F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 826,
+    "name": "Acibenzolar-S-Methyl",
+    "codeID": 331,
+    "codeName": "P1",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1180,
+    "name": "Acifluorfen",
+    "codeID": 461,
+    "codeName": "E:14",
+    "color": "FF9881",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 996,
+    "name": "Aluminum tris",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 930,
+    "name": "Ametoctradin; dimethomorph",
+    "codeID": 361,
+    "codeName": "45; 40",
+    "color": "E225BB:497490",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1161,
+    "name": "Aureobasidium pullulans",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 938,
+    "name": "Aureobasidium pullulans",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1192,
+    "name": "Azadirechtin",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 827,
+    "name": "Azoxystrobin",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1114,
+    "name": "Azoxystrobin, mancozeb",
+    "codeID": 451,
+    "codeName": "11; M3",
+    "color": "169137:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 928,
+    "name": "Azoxystrobin; flutriafol",
+    "codeID": 359,
+    "codeName": "11; 3",
+    "color": "169137:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1115,
+    "name": "Azoxystrobin; tebuconazole",
+    "codeID": 359,
+    "codeName": "11; 3",
+    "color": "169137:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 942,
+    "name": "Bacillus amyloliquefaciens",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 831,
+    "name": "Bacillus amyloliquefaciens",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1003,
+    "name": "Bacillus amyloliquefaciens\u00a0",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1012,
+    "name": "Bacillus mycoides isolate J",
+    "codeID": 405,
+    "codeName": "P06",
+    "color": "C694FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1011,
+    "name": "Bacillus mycoides isolate J",
+    "codeID": 405,
+    "codeName": "P06",
+    "color": "C694FF",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 910,
+    "name": "Bacillus mycoides\u00a0",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1165,
+    "name": "Bacillus pumilis",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 832,
+    "name": "Bacillus pumilus",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 941,
+    "name": "Bacillus subtilis",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1166,
+    "name": "Bacillus subtilis",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1096,
+    "name": "Bacillus thuringiensis",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1048,
+    "name": "Bacillus thuringiensis",
+    "codeID": 397,
+    "codeName": "44",
+    "color": "FFBB54",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1097,
+    "name": "Bacillus thuringiensis; sulfur",
+    "codeID": 445,
+    "codeName": "44; M2",
+    "color": "FFBB54:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1099,
+    "name": "Bacillus thuringiensis; sulfur",
+    "codeID": 445,
+    "codeName": "44; M2",
+    "color": "FFBB54:090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 899,
+    "name": "Basic Copper Sulfate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 900,
+    "name": "Basic Copper Sulfate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1120,
+    "name": "Basic copper sulfate; copper oxychloride",
+    "codeID": 401,
+    "codeName": "M1; M1",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 931,
+    "name": "Benzovindiflupyr",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1116,
+    "name": "Benzovindiflupyr; difenconazole",
+    "codeID": 404,
+    "codeName": "7; 3",
+    "color": "FF6666:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1049,
+    "name": "Beta cyfluthrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1038,
+    "name": "Bifenazate",
+    "codeID": 421,
+    "codeName": "20D",
+    "color": "60A60F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1020,
+    "name": "Bifenthrin",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 897,
+    "name": "BLAD lupine extract",
+    "codeID": 448,
+    "codeName": "BM01",
+    "color": "97FF5B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 917,
+    "name": "Borax",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 833,
+    "name": "Boscalid",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 860,
+    "name": "Boscalid; Pyraclostrobin",
+    "codeID": 322,
+    "codeName": "7; 11",
+    "color": "FF6666:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1056,
+    "name": "Buprofezin",
+    "codeID": 427,
+    "codeName": "7C",
+    "color": "9C0345",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1076,
+    "name": "Burkholderia spp",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 936,
+    "name": "Calcium Polysulfides",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1095,
+    "name": "Calcium polysulfides",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 834,
+    "name": "Captan",
+    "codeID": 329,
+    "codeName": "M4",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1018,
+    "name": "Carbaryl",
+    "codeID": 409,
+    "codeName": "1A",
+    "color": "5C8DFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1111,
+    "name": "Carbaryl",
+    "codeID": 409,
+    "codeName": "1A",
+    "color": "5C8DFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1190,
+    "name": "Carfentrazone",
+    "codeID": 461,
+    "codeName": "E:14",
+    "color": "FF9881",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1209,
+    "name": "Cerevisane",
+    "codeID": 405,
+    "codeName": "P06",
+    "color": "C694FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1208,
+    "name": "Cerevisane",
+    "codeID": 405,
+    "codeName": "P06",
+    "color": "C694FF",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1030,
+    "name": "Chlorantraniliprole \/ Rynaxypyr",
+    "codeID": 417,
+    "codeName": "28",
+    "color": "32546F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1176,
+    "name": "Chlorantraniliprole\/Lambda-cyhalothrin",
+    "codeID": 442,
+    "codeName": "3A; 28",
+    "color": "CC8E12:64A9DE",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1179,
+    "name": "Chlorantraniliprole\/Thiamethoxam",
+    "codeID": 441,
+    "codeName": "4A; 28",
+    "color": "F5769C:64A9DE",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 884,
+    "name": "Chlorothalonil",
+    "codeID": 337,
+    "codeName": "M5",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1059,
+    "name": "Chlorpyrifos",
+    "codeID": 406,
+    "codeName": "1B",
+    "color": "94C2FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1081,
+    "name": "Chromobacterium",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1074,
+    "name": "Chromobacterium",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1101,
+    "name": "Cinnamon oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1100,
+    "name": "Cinnamon oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1117,
+    "name": "Citric acid",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1163,
+    "name": "Citric acid",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1118,
+    "name": "Clarified hydrophobic extract of neem oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1184,
+    "name": "clethodim",
+    "codeID": 460,
+    "codeName": "A:1",
+    "color": "FF471D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1169,
+    "name": "Clofentezine",
+    "codeID": 425,
+    "codeName": "10A",
+    "color": "E8E800",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1183,
+    "name": "clopyralid",
+    "codeID": 466,
+    "codeName": "O:4",
+    "color": "FF2A74",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1054,
+    "name": "Clothianidin",
+    "codeID": 408,
+    "codeName": "4A",
+    "color": "F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 835,
+    "name": "Clove, Rosemary, Thyme oils",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 890,
+    "name": "Copper ammonium complex",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 887,
+    "name": "Copper ammonium complex",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 906,
+    "name": "Copper diammonia diacetate complex",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 907,
+    "name": "Copper diammonia diacetate complex",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 836,
+    "name": "Copper hydroxide",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 879,
+    "name": "Copper hydroxide",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1005,
+    "name": "Copper hydroxide; Copper oxychloride",
+    "codeID": 401,
+    "codeName": "M1; M1",
+    "color": "090808:090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1004,
+    "name": "Copper hydroxide; Copper oxychloride",
+    "codeID": 401,
+    "codeName": "M1; M1",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 912,
+    "name": "Copper hydroxide; Mancozeb",
+    "codeID": 349,
+    "codeName": "M1; M3",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 923,
+    "name": "Copper hydroxide; mefenoxam",
+    "codeID": 355,
+    "codeName": "M1; 4",
+    "color": "090808:21C600",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 875,
+    "name": "Copper octanoate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 881,
+    "name": "Copper octanoate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 905,
+    "name": "Copper oxychloride",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1106,
+    "name": "Copper oxychloride; Basic copper sulfate; sulfur",
+    "codeID": 447,
+    "codeName": "M1; M1; M2",
+    "color": "090808:090808:090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1105,
+    "name": "Copper oxychloride; basic copper sulfate; sulfur",
+    "codeID": 447,
+    "codeName": "M1; M1; M2",
+    "color": "090808:090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 914,
+    "name": "Copper sulfate pentahydrate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 913,
+    "name": "Copper sulfate pentahydrate",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 837,
+    "name": "Copper Sulfate\u00a0",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 880,
+    "name": "Copper Sulfate\u00a0",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1062,
+    "name": "CpGV",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1063,
+    "name": "CpGV",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 874,
+    "name": "Cuprous oxide",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 882,
+    "name": "Cuprous oxide",
+    "codeID": 326,
+    "codeName": "M1",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1032,
+    "name": "Cyantraniliprole \/ Cyazypyr",
+    "codeID": 417,
+    "codeName": "28",
+    "color": "32546F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 918,
+    "name": "Cyazofamid",
+    "codeID": 352,
+    "codeName": "21",
+    "color": "1E6B5B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1202,
+    "name": "Cyclaniliprole",
+    "codeID": 417,
+    "codeName": "28",
+    "color": "32546F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1077,
+    "name": "Cydia pomonella granulosis virus",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1080,
+    "name": "Cydia pomonella granulovirus",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 892,
+    "name": "Cyflufenamid",
+    "codeID": 341,
+    "codeName": "U6",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1064,
+    "name": "Cyflumetofen",
+    "codeID": 398,
+    "codeName": "25",
+    "color": "FF5768",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1050,
+    "name": "Cyfluthrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1084,
+    "name": "Cyfluthrin; Imidacloprid",
+    "codeID": 440,
+    "codeName": "3A; 4A",
+    "color": "CC8E12:F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1168,
+    "name": "Cyhexatin",
+    "codeID": 424,
+    "codeName": "12B",
+    "color": "A12516",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 925,
+    "name": "Cymoxanil; famoxadone",
+    "codeID": 357,
+    "codeName": "27; 11",
+    "color": "FF0303:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1075,
+    "name": "Cypermethrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 838,
+    "name": "Cyprodinil",
+    "codeID": 315,
+    "codeName": "9",
+    "color": "C07C16",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 839,
+    "name": "Cyprodinil; Fludioxonil",
+    "codeID": 325,
+    "codeName": "9; 12",
+    "color": "C07C16:0EAFC1",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1203,
+    "name": "Dazomet",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1172,
+    "name": "DCNA Dicloran",
+    "codeID": 459,
+    "codeName": "14",
+    "color": "BA6EFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1181,
+    "name": "Devrinol",
+    "codeID": 465,
+    "codeName": "K3:15",
+    "color": "2216FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1022,
+    "name": "Diazinon",
+    "codeID": 406,
+    "codeName": "1B",
+    "color": "94C2FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1171,
+    "name": "Dichloran",
+    "codeID": 459,
+    "codeName": "14",
+    "color": "BA6EFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1170,
+    "name": "Difenoconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 828,
+    "name": "Difenoconazole; Azoxystrobin",
+    "codeID": 321,
+    "codeName": "3; 11",
+    "color": "1A3FD2:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 840,
+    "name": "Difenoconazole; Cyprodinil",
+    "codeID": 324,
+    "codeName": "3; 9",
+    "color": "1A3FD2:C07C16",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 921,
+    "name": "Difenoconazole; mandipropamid",
+    "codeID": 353,
+    "codeName": "3; 40",
+    "color": "1A3FD2:497490",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 841,
+    "name": "Difenoconazole; Propiconazole",
+    "codeID": 336,
+    "codeName": "3; 3",
+    "color": "1A3FD2:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1193,
+    "name": "Diflubenzorun",
+    "codeID": 413,
+    "codeName": "15",
+    "color": "70256B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 909,
+    "name": "Dimethomorph",
+    "codeID": 346,
+    "codeName": "40",
+    "color": "497490",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1110,
+    "name": "Dinotefuran",
+    "codeID": 408,
+    "codeName": "4A",
+    "color": "F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 994,
+    "name": "Dodine",
+    "codeID": 396,
+    "codeName": "U12",
+    "color": "000000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1055,
+    "name": "Dormant (superior) oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1033,
+    "name": "Endosulfan",
+    "codeID": 418,
+    "codeName": "2A",
+    "color": "0700C7",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1028,
+    "name": "Esfenvalerate",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1039,
+    "name": "Etoxazole",
+    "codeID": 422,
+    "codeName": "10B",
+    "color": "F0D739",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1123,
+    "name": "Fats and glyceridic oils margosa",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1122,
+    "name": "Fats and glyceridic oils margosa",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 919,
+    "name": "Fenamidone",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 842,
+    "name": "Fenarimol",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1196,
+    "name": "Fenazaquin",
+    "codeID": 352,
+    "codeName": "21",
+    "color": "1E6B5B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1073,
+    "name": "Fenbuatatin-oxide",
+    "codeID": 424,
+    "codeName": "12B",
+    "color": "A12516",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 889,
+    "name": "Fenbuconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 843,
+    "name": "Fenhexamid",
+    "codeID": 319,
+    "codeName": "17",
+    "color": "000080",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 844,
+    "name": "Fenhexamid; Captan",
+    "codeID": 323,
+    "codeName": "17; M4",
+    "color": "000080:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1031,
+    "name": "Fenpropathrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1040,
+    "name": "Fenpyroximate",
+    "codeID": 423,
+    "codeName": "21A",
+    "color": "FF0000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 883,
+    "name": "Ferbam",
+    "codeID": 328,
+    "codeName": "M3",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1087,
+    "name": "Flonicamid",
+    "codeID": 342,
+    "codeName": "29",
+    "color": "F836FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 895,
+    "name": "Fluazinam",
+    "codeID": 342,
+    "codeName": "29",
+    "color": "F836FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1060,
+    "name": "Flubendiamide",
+    "codeID": 417,
+    "codeName": "28",
+    "color": "32546F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 845,
+    "name": "Fludioxonil",
+    "codeID": 317,
+    "codeName": "12",
+    "color": "0EAFC1",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1177,
+    "name": "Flumioxazin",
+    "codeID": 461,
+    "codeName": "E:14",
+    "color": "FF9881",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 903,
+    "name": "fluopyram",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 902,
+    "name": "fluopyram; pyrimethanil",
+    "codeID": 344,
+    "codeName": "7; 9",
+    "color": "FF6666:C07C16",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1124,
+    "name": "Fluopyram; tebuconazole",
+    "codeID": 404,
+    "codeName": "7; 3",
+    "color": "FF6666:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 872,
+    "name": "Fluopyram; trifloxystrobin",
+    "codeID": 322,
+    "codeName": "7; 11",
+    "color": "FF6666:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 846,
+    "name": "Fluoxastrobin",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1065,
+    "name": "Flupyradifurone",
+    "codeID": 431,
+    "codeName": "4D",
+    "color": "FF66FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1125,
+    "name": "Flutianil",
+    "codeID": 452,
+    "codeName": "U13",
+    "color": "085851",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 888,
+    "name": "Flutriafol",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1070,
+    "name": "Fluxapyroxad",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 847,
+    "name": "Fluxapyroxad; Pyraclostrobin",
+    "codeID": 322,
+    "codeName": "7; 11",
+    "color": "FF6666:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1109,
+    "name": "Formetanate",
+    "codeID": 409,
+    "codeName": "1A",
+    "color": "5C8DFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1051,
+    "name": "Gamma cyhalothrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1126,
+    "name": "Garlic oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1127,
+    "name": "Garlic oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1128,
+    "name": "Garlic oil, cottonseed oil, corn oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1129,
+    "name": "Garlic oil, cottonseed oil, corn oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1130,
+    "name": "Geraniol",
+    "codeID": 358,
+    "codeName": "46",
+    "color": "5F247F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1195,
+    "name": "Gibberellic Acid",
+    "codeID": 473,
+    "codeName": "Hormone",
+    "color": "FF0000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 878,
+    "name": "Gliocladium catelunatum",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1188,
+    "name": "Glyphosate",
+    "codeID": 463,
+    "codeName": "G:9",
+    "color": "9DB977",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1041,
+    "name": "Hexakis",
+    "codeID": 424,
+    "codeName": "12B",
+    "color": "A12516",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1042,
+    "name": "Hexythiazox",
+    "codeID": 425,
+    "codeName": "10A",
+    "color": "E8E800",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1034,
+    "name": "Horticultural oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 848,
+    "name": "Hydrogen dioxide",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 915,
+    "name": "Hydrogen dioxide; peroxyacetic acid",
+    "codeID": 350,
+    "codeName": "?; ?",
+    "color": "179207:179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1141,
+    "name": "Hydrogen dioxide; peroxyacetic acid",
+    "codeID": 350,
+    "codeName": "?; ?",
+    "color": "179207:179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 916,
+    "name": "Hydrogen dioxide; phosphonate",
+    "codeID": 351,
+    "codeName": "?; 33",
+    "color": "179207:800000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1132,
+    "name": "Hydrogen peroxide, peroxyacetic acid",
+    "codeID": 350,
+    "codeName": "?; ?",
+    "color": "179207:179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1131,
+    "name": "Hydrogen peroxide; mono and dipotassium salts of phosphous acid",
+    "codeID": 453,
+    "codeName": "?; 33",
+    "color": "179207:800000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1133,
+    "name": "Hydrogen peroxide; peroxyacetic acid",
+    "codeID": 350,
+    "codeName": "?; ?",
+    "color": "179207:179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1088,
+    "name": "Imidacloprid",
+    "codeID": 408,
+    "codeName": "4A",
+    "color": "F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1027,
+    "name": "Indoxacarb",
+    "codeID": 347,
+    "codeName": "22",
+    "color": "3EC1BC",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1046,
+    "name": "Insecticidal Soap",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 849,
+    "name": "Iprodione",
+    "codeID": 311,
+    "codeName": "2",
+    "color": "990000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 898,
+    "name": "Isofetamid",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1134,
+    "name": "Isofetamid; tebuconazole",
+    "codeID": 404,
+    "codeName": "7; 3",
+    "color": "FF6666:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1029,
+    "name": "Kaolin clay",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1000,
+    "name": "Kasugamycin Hydrochloride Hydrate",
+    "codeID": 399,
+    "codeName": "24",
+    "color": "FF99B4",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 924,
+    "name": "Kresoxim-methyl",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1052,
+    "name": "Lambda cyhalothrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1083,
+    "name": "Lambda cyhalothrin; Thiamethoxam\u00a0",
+    "codeID": 440,
+    "codeName": "3A; 4A",
+    "color": "CC8E12:F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1086,
+    "name": "Lambda-cyhalothrin; Chlorantraniliprole",
+    "codeID": 442,
+    "codeName": "3A; 28",
+    "color": "CC8E12:64A9DE",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 929,
+    "name": "Laminarin",
+    "codeID": 332,
+    "codeName": "P4",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 990,
+    "name": "Lime sulfur",
+    "codeID": 327,
+    "codeName": "M2",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 989,
+    "name": "Lime sulfur",
+    "codeID": 327,
+    "codeName": "M2",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1014,
+    "name": "Malathion",
+    "codeID": 406,
+    "codeName": "1B",
+    "color": "94C2FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 908,
+    "name": "Mancozeb",
+    "codeID": 328,
+    "codeName": "M3",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 922,
+    "name": "Mancozeb; mefenoxam",
+    "codeID": 354,
+    "codeName": "M3; 4",
+    "color": "090808:21C600",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 911,
+    "name": "Mancozeb; zoxamide\u00a0",
+    "codeID": 348,
+    "codeName": "M3; 22",
+    "color": "090808:52FFF9",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1107,
+    "name": "Mandestrobin",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 920,
+    "name": "Mandipropamid",
+    "codeID": 346,
+    "codeName": "40",
+    "color": "497490",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 850,
+    "name": "Mefenoxam",
+    "codeID": 313,
+    "codeName": "4",
+    "color": "21C600",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1173,
+    "name": "mefentrifluconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 851,
+    "name": "Metalaxyl",
+    "codeID": 313,
+    "codeName": "4",
+    "color": "21C600",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 894,
+    "name": "Metconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1023,
+    "name": "Methomyl",
+    "codeID": 409,
+    "codeName": "1A",
+    "color": "5C8DFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1025,
+    "name": "Methoxyfenozide",
+    "codeID": 414,
+    "codeName": "18A",
+    "color": "2A9E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 997,
+    "name": "Metiram",
+    "codeID": 328,
+    "codeName": "M3",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1135,
+    "name": "Metrafenone",
+    "codeID": 457,
+    "codeName": "50",
+    "color": "F9B9FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 933,
+    "name": "Mineral oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 934,
+    "name": "Mineral oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1200,
+    "name": "Miravis",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1136,
+    "name": "Mono potassium phosphate, mono potassium phosphite",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1137,
+    "name": "Mono- and di-potassium phosphite",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1102,
+    "name": "Mono- and di-potassium salts of phosphorous acid",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1138,
+    "name": "Mono- and dibasic sodium, potassium, and ammonium phosphites",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1071,
+    "name": "Myclobutanil",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 853,
+    "name": "Neem oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1024,
+    "name": "Novaluron",
+    "codeID": 413,
+    "codeName": "15",
+    "color": "70256B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1082,
+    "name": "Novaluron; Acetamiprid",
+    "codeID": 438,
+    "codeName": "15; 4A",
+    "color": "70256B:F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1139,
+    "name": "Oils margosa; azadirachtin",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1140,
+    "name": "Oils margosa; azadirachtin",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1178,
+    "name": "Oxyfluorfen",
+    "codeID": 461,
+    "codeName": "E:14",
+    "color": "FF9881",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 886,
+    "name": "Oxytetracycline",
+    "codeID": 339,
+    "codeName": "41",
+    "color": "FFE53D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1002,
+    "name": "Pantoea agglomerans\u00a0",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 876,
+    "name": "Paraffinic oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1212,
+    "name": "Paraffinic oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1189,
+    "name": "Paraquat",
+    "codeID": 462,
+    "codeName": "D:22",
+    "color": "FBFF18",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1187,
+    "name": "Pendimethalin",
+    "codeID": 464,
+    "codeName": "K1:3",
+    "color": "18FFF4",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 854,
+    "name": "Penthiopyrad",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1053,
+    "name": "Permethrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 877,
+    "name": "Petroleum oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1213,
+    "name": "Petroleum oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1013,
+    "name": "Phosmet",
+    "codeID": 406,
+    "codeName": "1B",
+    "color": "94C2FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 855,
+    "name": "Phosphonate",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 995,
+    "name": "Phosphorous acid and salts",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 856,
+    "name": "Polyoxin D zinc salt",
+    "codeID": 340,
+    "codeName": "19",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 857,
+    "name": "Potassium bicarbonate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1162,
+    "name": "Potassium bicarbonate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1143,
+    "name": "Potassium phosphite",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1144,
+    "name": "Potassium phosphite",
+    "codeID": 458,
+    "codeName": "P7",
+    "color": "5C3E0D",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 935,
+    "name": "Potassium salts of fatty acids",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1164,
+    "name": "Potassium salts of fatty acids",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1146,
+    "name": "Potassium silicate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1145,
+    "name": "Potassium silicate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1006,
+    "name": "Prohexadione calcium",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 858,
+    "name": "Propiconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 829,
+    "name": "Propiconazole; Azoxystrobin",
+    "codeID": 321,
+    "codeName": "3; 11",
+    "color": "1A3FD2:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 896,
+    "name": "Prothioconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1207,
+    "name": "Pseudomonas fluorescens",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1204,
+    "name": "Pseudomonas fluorescens",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1199,
+    "name": "Pydiflumetofen",
+    "codeID": 314,
+    "codeName": "7",
+    "color": "FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1147,
+    "name": "Pydiflumetofen; fludioxonil",
+    "codeID": 454,
+    "codeName": "7; 12",
+    "color": "FF6666:0EAFC1",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1091,
+    "name": "Pymetrozine",
+    "codeID": 352,
+    "codeName": "21",
+    "color": "1E6B5B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 859,
+    "name": "Pyraclostrobin",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1072,
+    "name": "Pyridaben",
+    "codeID": 423,
+    "codeName": "21A",
+    "color": "FF0000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1191,
+    "name": "Pyrifluquinazon",
+    "codeID": 471,
+    "codeName": "9B",
+    "color": "3D1BFF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 861,
+    "name": "Pyrimethanil",
+    "codeID": 315,
+    "codeName": "9",
+    "color": "C07C16",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1148,
+    "name": "Pyriofenone",
+    "codeID": 457,
+    "codeName": "50",
+    "color": "F9B9FF",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1061,
+    "name": "Pyriproxyfen",
+    "codeID": 427,
+    "codeName": "7C",
+    "color": "9C0345",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 862,
+    "name": "Quinoxyfen",
+    "codeID": 318,
+    "codeName": "13",
+    "color": "006400",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 964,
+    "name": "Reynoutria sachalinensis\u00a0",
+    "codeID": 333,
+    "codeName": "P5",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 863,
+    "name": "Reynoutria sachalinensis\u00a0",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1045,
+    "name": "Rosemary&Peppermint Oils",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1185,
+    "name": "Sethoxydim",
+    "codeID": 460,
+    "codeName": "A:1",
+    "color": "FF471D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1214,
+    "name": "Sodium Carbonate Peroxyhydrate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1149,
+    "name": "Sodium carbonate peroxyhydrate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1094,
+    "name": "Sodium chloride",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1093,
+    "name": "Sodium chloride",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1150,
+    "name": "Sodium tetraborohydrate decahydrate",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1151,
+    "name": "Soybean oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1047,
+    "name": "Spinetoram",
+    "codeID": 407,
+    "codeName": "5",
+    "color": "71D1C7",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1198,
+    "name": "Spinetoram; Methoxyfenozide",
+    "codeID": 476,
+    "codeName": "5; 18A",
+    "color": "71D1C7:2A9E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1016,
+    "name": "Spinosad",
+    "codeID": 407,
+    "codeName": "5",
+    "color": "71D1C7",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1167,
+    "name": "Spirodiclofen",
+    "codeID": 426,
+    "codeName": "23",
+    "color": "324A30",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1044,
+    "name": "Spiromesifen",
+    "codeID": 426,
+    "codeName": "23",
+    "color": "324A30",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1057,
+    "name": "Spirotetramat",
+    "codeID": 426,
+    "codeName": "23",
+    "color": "324A30",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1211,
+    "name": "Streptomyces lydicus",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 864,
+    "name": "Streptomyces lydicus",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 998,
+    "name": "Streptomycin sulfate",
+    "codeID": 398,
+    "codeName": "25",
+    "color": "FF5768",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1043,
+    "name": "Sucrose Octanoate",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1182,
+    "name": "Sulfentrazone",
+    "codeID": 461,
+    "codeName": "E:14",
+    "color": "FF9881",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1089,
+    "name": "Sulfoxaflor",
+    "codeID": 443,
+    "codeName": "4C",
+    "color": "08FF45",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 891,
+    "name": "Sulfur",
+    "codeID": 327,
+    "codeName": "M2",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 865,
+    "name": "Sulfur",
+    "codeID": 327,
+    "codeName": "M2",
+    "color": "090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1153,
+    "name": "Sulfur; Basic copper sulfate",
+    "codeID": 446,
+    "codeName": "M2; M1",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1154,
+    "name": "Sulfur; basic copper sulfate; copper oxychloride",
+    "codeID": 446,
+    "codeName": "M2; M1",
+    "color": "090808:090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1103,
+    "name": "Sulfur; Copper oxychloride",
+    "codeID": 446,
+    "codeName": "M2; M1",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1104,
+    "name": "Sulfur; Copper oxychloride",
+    "codeID": 446,
+    "codeName": "M2; M1",
+    "color": "090808:090808",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1152,
+    "name": "Sulfur; tribasic copper sulfate",
+    "codeID": 446,
+    "codeName": "M2; M1",
+    "color": "090808:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1058,
+    "name": "Summer oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1205,
+    "name": "Swinglea glutinosa",
+    "codeID": 448,
+    "codeName": "BM01",
+    "color": "97FF5B",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1206,
+    "name": "Swinglea glutinosa",
+    "codeID": 448,
+    "codeName": "BM01",
+    "color": "97FF5B",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 926,
+    "name": "Tea tree oil",
+    "codeID": 358,
+    "codeName": "46",
+    "color": "5F247F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 927,
+    "name": "Tea tree oil",
+    "codeID": 358,
+    "codeName": "46",
+    "color": "5F247F",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 866,
+    "name": "Tebuconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 904,
+    "name": "Tebuconazole; azoxystrobin",
+    "codeID": 321,
+    "codeName": "3; 11",
+    "color": "1A3FD2:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 901,
+    "name": "Tebuconazole; fluopyram",
+    "codeID": 343,
+    "codeName": "3; 7",
+    "color": "1A3FD2:FF6666",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1155,
+    "name": "Tebuconazole; potassium phosphite",
+    "codeID": 455,
+    "codeName": "3; 33",
+    "color": "1A3FD2:800000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1156,
+    "name": "Tebuconazole; sulfur",
+    "codeID": 456,
+    "codeName": "3; M2",
+    "color": "1A3FD2:090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 999,
+    "name": "Tebuconazole; Trifloxystrobin",
+    "codeID": 321,
+    "codeName": "3; 11",
+    "color": "1A3FD2:169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1026,
+    "name": "Tebufenozide",
+    "codeID": 414,
+    "codeName": "18A",
+    "color": "2A9E0D",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1113,
+    "name": "test",
+    "codeID": 310,
+    "codeName": "1",
+    "color": "9717C6",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 867,
+    "name": "Tetraconazole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1019,
+    "name": "Thiamethoxam",
+    "codeID": 408,
+    "codeName": "4A",
+    "color": "F5769C",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1085,
+    "name": "Thiamethoxam; Chloranitraniliprole",
+    "codeID": 441,
+    "codeName": "4A; 28",
+    "color": "F5769C:64A9DE",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 868,
+    "name": "Thiophanate-Methyl",
+    "codeID": 310,
+    "codeName": "1",
+    "color": "9717C6",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 885,
+    "name": "Thiophanate-Methyl; propiconazole",
+    "codeID": 338,
+    "codeName": "1; 3",
+    "color": "9717C6:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 869,
+    "name": "Thiram",
+    "codeID": 328,
+    "codeName": "M3",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1158,
+    "name": "Thyme oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1157,
+    "name": "Thyme oil",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1092,
+    "name": "Tolfenpyrad",
+    "codeID": 423,
+    "codeName": "21A",
+    "color": "FF0000",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 932,
+    "name": "Triadimefon",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 870,
+    "name": "Trichoderma species",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 871,
+    "name": "Trifloxystrobin",
+    "codeID": 316,
+    "codeName": "11",
+    "color": "169137",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 873,
+    "name": "Triflumizole",
+    "codeID": 312,
+    "codeName": "3",
+    "color": "1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1090,
+    "name": "triphenyltin hydroxide",
+    "codeID": 444,
+    "codeName": "30",
+    "color": "A0FF8F",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1160,
+    "name": "Ulocladium oudemansii",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1159,
+    "name": "Ulocladium oudemansii",
+    "codeID": 334,
+    "codeName": "?",
+    "color": "179207",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1035,
+    "name": "Verdant horticultural oil",
+    "codeID": 330,
+    "codeName": "NC",
+    "color": "575353",
+    "typeName": "Organic",
+    "typeID": 2
+  },
+  {
+    "id": 1021,
+    "name": "Zeta-cypermethrin",
+    "codeID": 411,
+    "codeName": "3A",
+    "color": "CC8E12",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1175,
+    "name": "Zeta-cypermethrin; avermectin",
+    "codeID": 468,
+    "codeName": "3A; 6",
+    "color": "CC8E12:205CAB",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1197,
+    "name": "Zeta-cypermethrin; Cypermethrin",
+    "codeID": 336,
+    "codeName": "3; 3",
+    "color": "1A3FD2:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 1108,
+    "name": "Zeta-cypermethrin;Bifenthrin",
+    "codeID": 450,
+    "codeName": "3A; 3",
+    "color": "CC8E12:1A3FD2",
+    "typeName": "Conventional",
+    "typeID": 1
+  },
+  {
+    "id": 893,
+    "name": "Ziram",
+    "codeID": 328,
+    "codeName": "M3",
+    "color": "090808",
+    "typeName": "Conventional",
+    "typeID": 1
+  }
+]

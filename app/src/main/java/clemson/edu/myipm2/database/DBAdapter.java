@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -25,14 +26,20 @@ public class DBAdapter {
     //==============================================================================================
     //Utility
     public boolean isDatabaseEmpty(){
-        String sql = "SELECT COUNT(*) FROM "+tables.getIthTableInstance(0).getTableName();
-        Cursor mCursor = runSelectQuery(sql, debugSelectStatement);
-        if(mCursor==null)return true;
-        else{
-            int count = mCursor.getInt(0);
-            if(count==0)return true;
-            else return false;
+        for(int i : Arrays.asList(0, 15)){
+            String sql = "SELECT COUNT(*) FROM " + tables.getIthTableInstance(i).getTableName();
+            Cursor mCursor = runSelectQuery(sql, debugSelectStatement);
+            if (mCursor == null) {
+                return true;
+            } else {
+                int count = mCursor.getInt(0);
+                if (count == 0){
+                    return true;
+                }
+            }
         }
+
+        return false;
     }
 
     public void deleteContent(){

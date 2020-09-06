@@ -1,1 +1,1160 @@
-[{"id":369,"name":"Gray Mold","affectionTypeID":1,"fruitID":23},{"id":370,"name":"Powdery Mildew","affectionTypeID":1,"fruitID":23},{"id":371,"name":"Anthracnose Fruit Rot","affectionTypeID":1,"fruitID":23},{"id":372,"name":"Angular Leaf Spot","affectionTypeID":1,"fruitID":23},{"id":373,"name":"Red Stele","affectionTypeID":1,"fruitID":23},{"id":374,"name":"Leather Rot","affectionTypeID":1,"fruitID":23},{"id":375,"name":"Leaf Blight,Spots,Scorch","affectionTypeID":1,"fruitID":23},{"id":376,"name":"Charcoal Rot","affectionTypeID":1,"fruitID":23},{"id":377,"name":"Anthracnose Crown Rot","affectionTypeID":1,"fruitID":23},{"id":378,"name":"Phytophthora Crown Rot","affectionTypeID":1,"fruitID":23},{"id":379,"name":"Botrytis Crown Rot","affectionTypeID":1,"fruitID":23},{"id":380,"name":"Verticillium Wilt","affectionTypeID":1,"fruitID":23},{"id":381,"name":"Peach Scab","affectionTypeID":1,"fruitID":24},{"id":382,"name":"Leaf Curl","affectionTypeID":1,"fruitID":24},{"id":383,"name":"Brown Rot","affectionTypeID":1,"fruitID":24},{"id":384,"name":"Blossom Blight","affectionTypeID":1,"fruitID":24},{"id":385,"name":"Constriction Canker","affectionTypeID":1,"fruitID":24},{"id":386,"name":"Gummosis","affectionTypeID":1,"fruitID":24},{"id":387,"name":"Anthracnose Fruit Rot","affectionTypeID":1,"fruitID":24},{"id":388,"name":"Alternaria Fruit Rot","affectionTypeID":1,"fruitID":24},{"id":389,"name":"Bacterial Spot","affectionTypeID":1,"fruitID":24},{"id":390,"name":"Rhizopus\/Gilbertella","affectionTypeID":1,"fruitID":24},{"id":391,"name":"Rusty Spot","affectionTypeID":1,"fruitID":24},{"id":392,"name":"Armillaria Root Rot","affectionTypeID":1,"fruitID":24},{"id":393,"name":"Peach Tree Short Life","affectionTypeID":1,"fruitID":24},{"id":394,"name":"Fusarium Wilt","affectionTypeID":1,"fruitID":23},{"id":395,"name":"Mummy Berry","affectionTypeID":1,"fruitID":25},{"id":396,"name":"Algal Stem Blotch","affectionTypeID":1,"fruitID":25},{"id":397,"name":"Alternaria Fruit Rot","affectionTypeID":1,"fruitID":25},{"id":398,"name":"Anthracnose Fruit Rot","affectionTypeID":1,"fruitID":25},{"id":399,"name":"Bacterial Leaf Scorch","affectionTypeID":1,"fruitID":25},{"id":400,"name":"Blueberry Leaf Rust","affectionTypeID":1,"fruitID":25},{"id":401,"name":"Streaking","affectionTypeID":1,"fruitID":24},{"id":402,"name":"Botrytis Flower Blight and Fruit Rot","affectionTypeID":1,"fruitID":25},{"id":403,"name":"Septoria Leaf Spot","affectionTypeID":1,"fruitID":25},{"id":404,"name":"Exobasidium Leaf and Fruit Spot","affectionTypeID":1,"fruitID":25},{"id":405,"name":"Blueberry Necrotic Ring Blotch Disease","affectionTypeID":1,"fruitID":25},{"id":406,"name":"Bronzing","affectionTypeID":1,"fruitID":24},{"id":407,"name":"Red Spot Disorder","affectionTypeID":1,"fruitID":24},{"id":408,"name":"Inking","affectionTypeID":1,"fruitID":24},{"id":409,"name":"Bacterial Canker","affectionTypeID":1,"fruitID":24},{"id":410,"name":"Oxysporum Wood Rot","affectionTypeID":1,"fruitID":24},{"id":411,"name":"Phomopsis Twig Blight","affectionTypeID":1,"fruitID":25},{"id":412,"name":"Nematodes","affectionTypeID":1,"fruitID":25},{"id":413,"name":"Stunt","affectionTypeID":1,"fruitID":25},{"id":414,"name":"Stem Canker","affectionTypeID":1,"fruitID":25},{"id":415,"name":"Ganoderma","affectionTypeID":1,"fruitID":25},{"id":416,"name":"Botryosphaeria Stem Blight","affectionTypeID":1,"fruitID":25},{"id":417,"name":"Cylindrocladium Blight of Cuttings","affectionTypeID":1,"fruitID":25},{"id":418,"name":"Powdery Mildew","affectionTypeID":1,"fruitID":25},{"id":419,"name":"Blueberry Red Ringspot Virus","affectionTypeID":1,"fruitID":25},{"id":420,"name":"Phytophthora Root Rot","affectionTypeID":1,"fruitID":25},{"id":421,"name":"Powdery mildew ","affectionTypeID":1,"fruitID":26},{"id":422,"name":"Downy mildew ","affectionTypeID":1,"fruitID":26},{"id":423,"name":"Orange Cane Blotch","affectionTypeID":1,"fruitID":27},{"id":424,"name":"Cane Blight","affectionTypeID":1,"fruitID":27},{"id":425,"name":"Cane and Leaf Rust","affectionTypeID":1,"fruitID":27},{"id":426,"name":"Orange Rust","affectionTypeID":1,"fruitID":27},{"id":427,"name":"Rosette (Double Blossom)","affectionTypeID":1,"fruitID":27},{"id":428,"name":"Powdery Mildew","affectionTypeID":1,"fruitID":27},{"id":429,"name":"Botrytis Gray Mold","affectionTypeID":1,"fruitID":27},{"id":430,"name":"Septoria Leaf Spot","affectionTypeID":1,"fruitID":27},{"id":431,"name":"Pseudocercospora Leaf Spot","affectionTypeID":1,"fruitID":27},{"id":432,"name":"Anthracnose Cane Spot","affectionTypeID":1,"fruitID":27},{"id":433,"name":"Upright Dieback","affectionTypeID":1,"fruitID":31},{"id":434,"name":"Pear scab","affectionTypeID":1,"fruitID":29},{"id":435,"name":"Cherry Leaf Spot","affectionTypeID":1,"fruitID":30},{"id":436,"name":"Sooty Blotch & Flyspeck","affectionTypeID":1,"fruitID":28},{"id":437,"name":"White Rot","affectionTypeID":1,"fruitID":28},{"id":438,"name":"Phytophthora Runner and Root Rot","affectionTypeID":1,"fruitID":31},{"id":439,"name":"Black Rot","affectionTypeID":1,"fruitID":28},{"id":440,"name":"Cedar Apple Rust","affectionTypeID":1,"fruitID":28},{"id":441,"name":"Fire Blight","affectionTypeID":1,"fruitID":28},{"id":442,"name":"Fabraea leaf spot","affectionTypeID":1,"fruitID":29},{"id":443,"name":"Apple Scab","affectionTypeID":1,"fruitID":28},{"id":444,"name":"Phytophthora Rots","affectionTypeID":1,"fruitID":28},{"id":445,"name":"Bitter Rot","affectionTypeID":1,"fruitID":28},{"id":446,"name":"Cherry Powdery Mildew","affectionTypeID":1,"fruitID":30},{"id":447,"name":"Fire blight","affectionTypeID":1,"fruitID":29},{"id":448,"name":"Fairy Ring","affectionTypeID":1,"fruitID":31},{"id":449,"name":"Powdery Mildew","affectionTypeID":1,"fruitID":28},{"id":450,"name":"Blister Spot","affectionTypeID":1,"fruitID":28},{"id":451,"name":"Cottonball","affectionTypeID":1,"fruitID":31},{"id":452,"name":"Nectria Canker","affectionTypeID":1,"fruitID":28},{"id":453,"name":"Bacterial Canker","affectionTypeID":1,"fruitID":30},{"id":454,"name":"X Disease","affectionTypeID":1,"fruitID":30},{"id":455,"name":"Fruit Rot","affectionTypeID":1,"fruitID":31},{"id":456,"name":"Blossom blast","affectionTypeID":1,"fruitID":29},{"id":457,"name":"Sooty blotch & flyspeck","affectionTypeID":1,"fruitID":29},{"id":458,"name":"Brown Rot","affectionTypeID":1,"fruitID":30},{"id":459,"name":"Stony pit","affectionTypeID":1,"fruitID":29},{"id":460,"name":"Alternaria Fruit Rot","affectionTypeID":1,"fruitID":30},{"id":461,"name":"Necrotic Leaf Blotch","affectionTypeID":1,"fruitID":28},{"id":462,"name":"Bitter rot","affectionTypeID":1,"fruitID":29},{"id":463,"name":"White rot","affectionTypeID":1,"fruitID":29},{"id":464,"name":"Glomerella Leaf Spot and Fruit Rot","affectionTypeID":1,"fruitID":28},{"id":465,"name":"Spotted Wing Drosophila","affectionTypeID":2,"fruitID":25},{"id":466,"name":"Cherry Fruitworm","affectionTypeID":2,"fruitID":25},{"id":467,"name":"Scale Insects","affectionTypeID":2,"fruitID":25},{"id":468,"name":"Gall Midge","affectionTypeID":2,"fruitID":25},{"id":469,"name":"Spider Mite","affectionTypeID":2,"fruitID":25},{"id":470,"name":"Cranberry Fruitworm","affectionTypeID":2,"fruitID":25},{"id":471,"name":"Bud Mite","affectionTypeID":2,"fruitID":25},{"id":472,"name":"Flower Thrips","affectionTypeID":2,"fruitID":25},{"id":473,"name":"Ground Pearl","affectionTypeID":2,"fruitID":25},{"id":474,"name":"Aphid","affectionTypeID":2,"fruitID":25},{"id":475,"name":"Plum Curculio","affectionTypeID":2,"fruitID":25},{"id":476,"name":"White Grub","affectionTypeID":2,"fruitID":25},{"id":477,"name":"Blueberry Stem Borer","affectionTypeID":2,"fruitID":25},{"id":478,"name":"Leafhoppers","affectionTypeID":2,"fruitID":25},{"id":479,"name":"Blueberry Maggot","affectionTypeID":2,"fruitID":25},{"id":480,"name":"Two-Spotted Spider Mite","affectionTypeID":2,"fruitID":23},{"id":481,"name":"Sap Beetles","affectionTypeID":2,"fruitID":23},{"id":482,"name":"Spotted Wing Drosophila","affectionTypeID":2,"fruitID":23},{"id":483,"name":"Flower Thrips","affectionTypeID":2,"fruitID":23},{"id":484,"name":"Plum curculio","affectionTypeID":2,"fruitID":24},{"id":485,"name":"White peach scale","affectionTypeID":2,"fruitID":24},{"id":486,"name":"Peachtree borer","affectionTypeID":2,"fruitID":24},{"id":487,"name":"Lesser peachtree borer","affectionTypeID":2,"fruitID":24},{"id":488,"name":"Caterpillars","affectionTypeID":2,"fruitID":23},{"id":489,"name":"San Jose scale","affectionTypeID":2,"fruitID":24},{"id":490,"name":"Leafhoppers","affectionTypeID":2,"fruitID":24},{"id":491,"name":"Aphids","affectionTypeID":2,"fruitID":23},{"id":492,"name":"Brown marmorated stink bug","affectionTypeID":2,"fruitID":28},{"id":493,"name":"Codling moth","affectionTypeID":2,"fruitID":28},{"id":494,"name":"Oriental fruit moth","affectionTypeID":2,"fruitID":28},{"id":495,"name":"Oriental fruit moth","affectionTypeID":2,"fruitID":24},{"id":496,"name":"Stink bugs","affectionTypeID":2,"fruitID":24},{"id":497,"name":"Green fruitworm","affectionTypeID":2,"fruitID":29},{"id":498,"name":"Pear psylla","affectionTypeID":2,"fruitID":29},{"id":499,"name":"Plum curculio","affectionTypeID":2,"fruitID":29}]
+[
+  {
+    "id": 396,
+    "name": "Algal Stem Blotch",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 531,
+    "name": "Alternaria bunch rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 388,
+    "name": "Alternaria Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 397,
+    "name": "Alternaria Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 514,
+    "name": "Alternaria Rot",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 550,
+    "name": "American plum borer",
+    "affectionTypeID": 2,
+    "fruitID": 30
+  },
+  {
+    "id": 372,
+    "name": "Angular Leaf Spot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 530,
+    "name": "Anthracnose",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 432,
+    "name": "Anthracnose Cane Spot",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 377,
+    "name": "Anthracnose Crown Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 371,
+    "name": "Anthracnose Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 387,
+    "name": "Anthracnose Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 398,
+    "name": "Anthracnose Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 474,
+    "name": "Aphid",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 491,
+    "name": "Aphids",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 561,
+    "name": "Apple Maggot Fly",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 443,
+    "name": "Apple Scab",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 392,
+    "name": "Armillaria Root Rot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 409,
+    "name": "Bacterial Canker",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 453,
+    "name": "Bacterial Canker",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 399,
+    "name": "Bacterial Leaf Scorch",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 389,
+    "name": "Bacterial Spot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 445,
+    "name": "Bitter Rot",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 462,
+    "name": "Bitter rot",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 526,
+    "name": "Bitter rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 543,
+    "name": "Black cherry aphid",
+    "affectionTypeID": 2,
+    "fruitID": 30
+  },
+  {
+    "id": 506,
+    "name": "Black Pecan Aphid",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 439,
+    "name": "Black Rot",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 508,
+    "name": "Black rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 545,
+    "name": "Blackmargined Aphid",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 450,
+    "name": "Blister Spot",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 456,
+    "name": "Blossom blast",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 560,
+    "name": "Blossom Blast of Apple",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 384,
+    "name": "Blossom Blight",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 400,
+    "name": "Blueberry Leaf Rust",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 479,
+    "name": "Blueberry Maggot",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 405,
+    "name": "Blueberry Necrotic Ring Blotch Disease",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 419,
+    "name": "Blueberry Red Ringspot Virus",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 477,
+    "name": "Blueberry Stem Borer",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 564,
+    "name": "Botryosphaeria canker and dieback",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 416,
+    "name": "Botryosphaeria Stem Blight",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 509,
+    "name": "Botrytis bunch rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 379,
+    "name": "Botrytis Crown Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 402,
+    "name": "Botrytis Flower Blight and Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 429,
+    "name": "Botrytis Gray Mold",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 406,
+    "name": "Bronzing",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 492,
+    "name": "Brown marmorated stink bug",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 515,
+    "name": "Brown marmorated stink bug",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 517,
+    "name": "Brown marmorated stink bug",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 383,
+    "name": "Brown Rot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 458,
+    "name": "Brown Rot",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 471,
+    "name": "Bud Mite",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 425,
+    "name": "Cane and Leaf Rust",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 424,
+    "name": "Cane Blight",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 488,
+    "name": "Caterpillars",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 440,
+    "name": "Cedar Apple Rust",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 376,
+    "name": "Charcoal Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 542,
+    "name": "Cherry fruit fly",
+    "affectionTypeID": 2,
+    "fruitID": 30
+  },
+  {
+    "id": 466,
+    "name": "Cherry Fruitworm",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 435,
+    "name": "Cherry Leaf Spot",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 446,
+    "name": "Cherry Powdery Mildew",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 493,
+    "name": "Codling moth",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 504,
+    "name": "Codling moth",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 549,
+    "name": "Common chickweed",
+    "affectionTypeID": 3,
+    "fruitID": 23
+  },
+  {
+    "id": 547,
+    "name": "Common vetch",
+    "affectionTypeID": 3,
+    "fruitID": 23
+  },
+  {
+    "id": 385,
+    "name": "Constriction Canker",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 451,
+    "name": "Cottonball",
+    "affectionTypeID": 1,
+    "fruitID": 31
+  },
+  {
+    "id": 470,
+    "name": "Cranberry Fruitworm",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 567,
+    "name": "Crown gall",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 554,
+    "name": "Curly dock",
+    "affectionTypeID": 3,
+    "fruitID": 23
+  },
+  {
+    "id": 553,
+    "name": "Cutleaf eveningprimrose",
+    "affectionTypeID": 3,
+    "fruitID": 23
+  },
+  {
+    "id": 417,
+    "name": "Cylindrocladium Blight of Cuttings",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 422,
+    "name": "Downy mildew ",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 566,
+    "name": "Esca (Measles)",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 563,
+    "name": "Eutypa dieback",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 404,
+    "name": "Exobasidium Leaf and Fruit Spot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 442,
+    "name": "Fabraea leaf spot",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 448,
+    "name": "Fairy Ring",
+    "affectionTypeID": 1,
+    "fruitID": 31
+  },
+  {
+    "id": 441,
+    "name": "Fire Blight",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 447,
+    "name": "Fire blight",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 520,
+    "name": "Flea Beetle",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 472,
+    "name": "Flower Thrips",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 483,
+    "name": "Flower Thrips",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 455,
+    "name": "Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 31
+  },
+  {
+    "id": 394,
+    "name": "Fusarium Wilt",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 468,
+    "name": "Gall Midge",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 415,
+    "name": "Ganoderma",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 464,
+    "name": "Glomerella Leaf Spot and Fruit Rot",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 523,
+    "name": "Grape root borer",
+    "affectionTypeID": 2,
+    "fruitID": 26
+  },
+  {
+    "id": 369,
+    "name": "Gray Mold",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 497,
+    "name": "Green fruitworm",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 473,
+    "name": "Ground Pearl",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 386,
+    "name": "Gummosis",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 521,
+    "name": "Gypsy moth",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 544,
+    "name": "Henbit",
+    "affectionTypeID": 3,
+    "fruitID": 23
+  },
+  {
+    "id": 556,
+    "name": "Hickory Shuckworm",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 533,
+    "name": "Hoverfly",
+    "affectionTypeID": 2,
+    "fruitID": 37
+  },
+  {
+    "id": 408,
+    "name": "Inking",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 535,
+    "name": "Lacewing",
+    "affectionTypeID": 2,
+    "fruitID": 37
+  },
+  {
+    "id": 534,
+    "name": "Lady beetle",
+    "affectionTypeID": 2,
+    "fruitID": 37
+  },
+  {
+    "id": 375,
+    "name": "Leaf Blight,Spots,Scorch",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 382,
+    "name": "Leaf Curl",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 478,
+    "name": "Leafhoppers",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 490,
+    "name": "Leafhoppers",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 374,
+    "name": "Leather Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 487,
+    "name": "Lesser peachtree borer",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 546,
+    "name": "Marssonina Leaf and Fruit Blotch",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 536,
+    "name": "Minute pirate bug",
+    "affectionTypeID": 2,
+    "fruitID": 37
+  },
+  {
+    "id": 395,
+    "name": "Mummy Berry",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 461,
+    "name": "Necrotic Leaf Blotch",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 452,
+    "name": "Nectria Canker",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 412,
+    "name": "Nematodes",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 562,
+    "name": "Obliquebanded leafroller",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 423,
+    "name": "Orange Cane Blotch",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 426,
+    "name": "Orange Rust",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 494,
+    "name": "Oriental fruit moth",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 495,
+    "name": "Oriental fruit moth",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 410,
+    "name": "Oxysporum Wood Rot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 538,
+    "name": "Peach Rust",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 381,
+    "name": "Peach Scab",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 393,
+    "name": "Peach Tree Short Life",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 486,
+    "name": "Peachtree borer",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 498,
+    "name": "Pear psylla",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 434,
+    "name": "Pear scab",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 555,
+    "name": "Pecan Leaf Scorch Mite",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 552,
+    "name": "Pecan Nut Casebearer",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 558,
+    "name": "Pecan Phylloxera",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 557,
+    "name": "Pecan Spittlebugs",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 516,
+    "name": "Pecan Weevil",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  },
+  {
+    "id": 529,
+    "name": "Phomopsis cane and leaf spot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 565,
+    "name": "Phomopsis dieback",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 411,
+    "name": "Phomopsis Twig Blight",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 519,
+    "name": "Phony Peach",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 378,
+    "name": "Phytophthora Crown Rot",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 420,
+    "name": "Phytophthora Root Rot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 444,
+    "name": "Phytophthora Rots",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 438,
+    "name": "Phytophthora Runner and Root Rot",
+    "affectionTypeID": 1,
+    "fruitID": 31
+  },
+  {
+    "id": 528,
+    "name": "Pierce's disease",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 505,
+    "name": "Plant bugs",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 475,
+    "name": "Plum Curculio",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 484,
+    "name": "Plum curculio",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 499,
+    "name": "Plum curculio",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 513,
+    "name": "Plum curculio",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 541,
+    "name": "Plum curculio",
+    "affectionTypeID": 2,
+    "fruitID": 30
+  },
+  {
+    "id": 370,
+    "name": "Powdery Mildew",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 418,
+    "name": "Powdery Mildew",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 421,
+    "name": "Powdery mildew ",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 428,
+    "name": "Powdery Mildew",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 449,
+    "name": "Powdery Mildew",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 537,
+    "name": "Predatory stink bugs",
+    "affectionTypeID": 2,
+    "fruitID": 37
+  },
+  {
+    "id": 431,
+    "name": "Pseudocercospora Leaf Spot",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 407,
+    "name": "Red Spot Disorder",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 373,
+    "name": "Red Stele",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 390,
+    "name": "Rhizopus\/Gilbertella",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 510,
+    "name": "Ripe rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 427,
+    "name": "Rosette (Double Blossom)",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 391,
+    "name": "Rusty Spot",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 489,
+    "name": "San Jose scale",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 481,
+    "name": "Sap Beetles",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 467,
+    "name": "Scale Insects",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 403,
+    "name": "Septoria Leaf Spot",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 430,
+    "name": "Septoria Leaf Spot",
+    "affectionTypeID": 1,
+    "fruitID": 27
+  },
+  {
+    "id": 436,
+    "name": "Sooty Blotch & Flyspeck",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 457,
+    "name": "Sooty blotch & flyspeck",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 524,
+    "name": "Sour rot",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 469,
+    "name": "Spider Mite",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 532,
+    "name": "Spider mites",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 465,
+    "name": "Spotted Wing Drosophila",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 482,
+    "name": "Spotted Wing Drosophila",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 551,
+    "name": "Spotted wing drosophila",
+    "affectionTypeID": 2,
+    "fruitID": 30
+  },
+  {
+    "id": 414,
+    "name": "Stem Canker",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 496,
+    "name": "Stink bugs",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 459,
+    "name": "Stony pit",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 401,
+    "name": "Streaking",
+    "affectionTypeID": 1,
+    "fruitID": 24
+  },
+  {
+    "id": 413,
+    "name": "Stunt",
+    "affectionTypeID": 1,
+    "fruitID": 25
+  },
+  {
+    "id": 522,
+    "name": "Tarnished plant bug",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 540,
+    "name": "Test",
+    "affectionTypeID": 3,
+    "fruitID": 39
+  },
+  {
+    "id": 559,
+    "name": "test",
+    "affectionTypeID": 1,
+    "fruitID": 39
+  },
+  {
+    "id": 525,
+    "name": "Test 1",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 527,
+    "name": "Test 2",
+    "affectionTypeID": 1,
+    "fruitID": 26
+  },
+  {
+    "id": 512,
+    "name": "Thrips",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 539,
+    "name": "ToDelete",
+    "affectionTypeID": 2,
+    "fruitID": 38
+  },
+  {
+    "id": 480,
+    "name": "Two-Spotted Spider Mite",
+    "affectionTypeID": 2,
+    "fruitID": 23
+  },
+  {
+    "id": 503,
+    "name": "Twospotted spider mite",
+    "affectionTypeID": 2,
+    "fruitID": 29
+  },
+  {
+    "id": 433,
+    "name": "Upright Dieback",
+    "affectionTypeID": 1,
+    "fruitID": 31
+  },
+  {
+    "id": 380,
+    "name": "Verticillium Wilt",
+    "affectionTypeID": 1,
+    "fruitID": 23
+  },
+  {
+    "id": 476,
+    "name": "White Grub",
+    "affectionTypeID": 2,
+    "fruitID": 25
+  },
+  {
+    "id": 485,
+    "name": "White peach scale",
+    "affectionTypeID": 2,
+    "fruitID": 24
+  },
+  {
+    "id": 437,
+    "name": "White Rot",
+    "affectionTypeID": 1,
+    "fruitID": 28
+  },
+  {
+    "id": 463,
+    "name": "White rot",
+    "affectionTypeID": 1,
+    "fruitID": 29
+  },
+  {
+    "id": 548,
+    "name": "Wooly Apple Aphid",
+    "affectionTypeID": 2,
+    "fruitID": 28
+  },
+  {
+    "id": 454,
+    "name": "X Disease",
+    "affectionTypeID": 1,
+    "fruitID": 30
+  },
+  {
+    "id": 511,
+    "name": "Yellow Pecan Aphid",
+    "affectionTypeID": 2,
+    "fruitID": 36
+  }
+]

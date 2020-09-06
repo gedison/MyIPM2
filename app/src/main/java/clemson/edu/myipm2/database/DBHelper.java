@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 class DBHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "MyIPM_2.db";
-    private static final int DATABASE_VERSION = 40;
+    private static final int DATABASE_VERSION = 41;
 
     DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -25,10 +25,16 @@ class DBHelper extends SQLiteOpenHelper {
     }
 
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
-        DBTables tables = new DBTables();
-        for(int i=0; i<tables.size(); i++){
-            DBTables.MyTable table = tables.getIthTableInstance(i);
-            sqLiteDatabase.execSQL("DROP TABLE IF EXISTS "+table.getTableName());
-        }onCreate(sqLiteDatabase);
+//        DBTables tables = new DBTables();
+//        for(int i=0; i<tables.size(); i++){
+//            DBTables.MyTable table = tables.getIthTableInstance(i);
+//            sqLiteDatabase.execSQL("DROP TABLE IF EXISTS "+table.getTableName());
+//        }onCreate(sqLiteDatabase);
+
+        if(41 == newVersion) {
+            for (String index : DBIndex.INDEXES) {
+                sqLiteDatabase.execSQL(index);
+            }
+        }
     }
 }

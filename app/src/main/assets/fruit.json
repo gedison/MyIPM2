@@ -1,1 +1,62 @@
-[{"id":23,"name":"Strawberry","color":"FF0F0F"},{"id":24,"name":"Peach","color":"FCB13F"},{"id":25,"name":"Blueberry","color":"2A0D78"},{"id":26,"name":"Bunch grape","color":"2ABF13"},{"id":27,"name":"Blackberry","color":"080808"},{"id":28,"name":"Apple","color":"ED0000"},{"id":29,"name":"Pear","color":"5CB82E"},{"id":30,"name":"Cherry","color":"AD0707"},{"id":31,"name":"Cranberry","color":"4F0A21"}]
+[
+  {
+    "id": 23,
+    "name": "Strawberry",
+    "color": "FF0F0F"
+  },
+  {
+    "id": 24,
+    "name": "Peach",
+    "color": "F0724D"
+  },
+  {
+    "id": 25,
+    "name": "Blueberry",
+    "color": "1819CC"
+  },
+  {
+    "id": 26,
+    "name": "Bunch grape",
+    "color": "B30DBF"
+  },
+  {
+    "id": 27,
+    "name": "Blackberry",
+    "color": "29044A"
+  },
+  {
+    "id": 28,
+    "name": "Apple",
+    "color": "008A20"
+  },
+  {
+    "id": 29,
+    "name": "Pear",
+    "color": "6CE07F"
+  },
+  {
+    "id": 30,
+    "name": "Cherry",
+    "color": "AD0707"
+  },
+  {
+    "id": 31,
+    "name": "Cranberry",
+    "color": "4F0A21"
+  },
+  {
+    "id": 36,
+    "name": "Pecan",
+    "color": "BF9B6B"
+  },
+  {
+    "id": 37,
+    "name": "Beneficial Insects",
+    "color": "008BA0"
+  },
+  {
+    "id": 39,
+    "name": "Test",
+    "color": "533CFF"
+  }
+]

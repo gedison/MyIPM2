@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyIPM2.iml" filepath="$PROJECT_DIR$/MyIPM2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myIPM2.iml" filepath="$PROJECT_DIR$/.idea/modules/myIPM2.iml" group="myIPM2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myIPM2-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myIPM2-app.iml" group="myIPM2/app" />
     </modules>
   </component>
 </project>

@@ -65,7 +65,7 @@ public class DownloaderActivity extends AppCompatActivity implements OnFruitSele
         progressDialog.show();
     }
 
-    public void onSyncFinished() {
+    public void onSyncFinished(boolean syncSucceeded) {
         if (progressDialog != null) {
             progressDialog.dismiss();
         }

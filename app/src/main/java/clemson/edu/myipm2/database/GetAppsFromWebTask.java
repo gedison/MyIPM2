@@ -16,6 +16,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -37,7 +38,7 @@ public class GetAppsFromWebTask extends AsyncTask<Void, Void, List<AppDAO.App>> 
         if(apps != null){
             return gson.fromJson(apps, new TypeToken<List<AppDAO.App>>(){}.getType());
         }else{
-            return new ArrayList<>();
+            return Collections.emptyList();
         }
     }
 
@@ -61,16 +62,14 @@ public class GetAppsFromWebTask extends AsyncTask<Void, Void, List<AppDAO.App>> 
             }
 
             return ret.toString();
-        }catch (IOException e){
+        }catch (Exception e){
             e.printStackTrace();
             return null;
         }finally {
             if(inputStream != null){
                 try {
                     inputStream.close();
-                }catch (IOException e){
-
-                }
+                }catch (IOException ignored){ }
             }
         }
 

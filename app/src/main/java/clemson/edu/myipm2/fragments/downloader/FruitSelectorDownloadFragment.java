@@ -49,10 +49,6 @@ public class FruitSelectorDownloadFragment extends Fragment implements OnGetApps
 
         new GetAppsFromWebTask(this).execute();
 
-
-
-
-
         AppDAO appDAO = new AppDAO(getContext());
         appItems  = appDAO.getAppItems();
     }
@@ -90,10 +86,14 @@ public class FruitSelectorDownloadFragment extends Fragment implements OnGetApps
     @Override
     public void onGetApps(List<AppDAO.App> apps) {
         AppDAO appDAO = new AppDAO(getContext());
+
         if (!apps.isEmpty()) {
             this.appItems = appDAO.getAppItems(apps);
             recyclerView.setAdapter(new MyFruitSelectorDownloadRecyclerViewAdapter(appItems, mListener, getContext()));
-
+        }else{
+            List<AppDAO.App> localApps = appDAO.getApps();
+            this.appItems = appDAO.getAppItems(localApps);
+            recyclerView.setAdapter(new MyFruitSelectorDownloadRecyclerViewAdapter(appItems, mListener, getContext()));
         }
     }
 

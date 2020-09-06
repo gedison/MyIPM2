@@ -54,9 +54,9 @@ public class ImageDownloaderRunnable implements Runnable {
             options.inJustDecodeBounds = false;
             return BitmapFactory.decodeStream(url.openConnection().getInputStream(), null, options);
         } catch (MalformedURLException e) {
-            return BitmapFactory.decodeResource(myContext.getResources(), R.drawable.gear);
+            return null;//BitmapFactory.decodeResource(myContext.getResources(), R.drawable.gear);
         } catch (IOException e) {
-            return BitmapFactory.decodeResource(myContext.getResources(), R.drawable.gear);
+            return null;//BitmapFactory.decodeResource(myContext.getResources(), R.drawable.gear);
         }
     }
 
@@ -70,6 +70,9 @@ public class ImageDownloaderRunnable implements Runnable {
                 myNotificationManager.incrementBuilder();
                 System.out.println(fileName);
                 Bitmap bitmap = decodeSampledBitmapFromURL(fileName, width, height);
+                if(bitmap == null){
+                    continue;
+                }
 
                 String[] temp = fileName.split("/");
                 fileName = temp[temp.length-1];

@@ -5,5 +5,5 @@ package clemson.edu.myipm2.database;
  */
 
 public interface OnSyncFinishedListener {
-    void onSyncFinished();
+    void onSyncFinished(boolean syncSucceeded);
 }

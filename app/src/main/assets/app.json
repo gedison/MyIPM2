@@ -1,1 +1,142 @@
-[{"id":2,"fruitID":23,"fruitName":"Strawberry","affectionTypeID":2,"typeName":"Insect"},{"id":4,"fruitID":24,"fruitName":"Peach","affectionTypeID":2,"typeName":"Insect"},{"id":6,"fruitID":25,"fruitName":"Blueberry","affectionTypeID":2,"typeName":"Insect"},{"id":14,"fruitID":28,"fruitName":"Apple","affectionTypeID":2,"typeName":"Insect"},{"id":1,"fruitID":23,"fruitName":"Strawberry","affectionTypeID":1,"typeName":"Disease"},{"id":3,"fruitID":24,"fruitName":"Peach","affectionTypeID":1,"typeName":"Disease"},{"id":5,"fruitID":25,"fruitName":"Blueberry","affectionTypeID":1,"typeName":"Disease"},{"id":7,"fruitID":28,"fruitName":"Apple","affectionTypeID":1,"typeName":"Disease"},{"id":9,"fruitID":26,"fruitName":"Bunch grape","affectionTypeID":1,"typeName":"Disease"},{"id":10,"fruitID":27,"fruitName":"Blackberry","affectionTypeID":1,"typeName":"Disease"},{"id":11,"fruitID":30,"fruitName":"Cherry","affectionTypeID":1,"typeName":"Disease"},{"id":12,"fruitID":31,"fruitName":"Cranberry","affectionTypeID":1,"typeName":"Disease"},{"id":13,"fruitID":29,"fruitName":"Pear","affectionTypeID":1,"typeName":"Disease"}]
+[
+  {
+    "id": 2,
+    "fruitID": 23,
+    "fruitName": "Strawberry",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 4,
+    "fruitID": 24,
+    "fruitName": "Peach",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 6,
+    "fruitID": 25,
+    "fruitName": "Blueberry",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 14,
+    "fruitID": 28,
+    "fruitName": "Apple",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 17,
+    "fruitID": 29,
+    "fruitName": "Pear",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 16,
+    "fruitID": 36,
+    "fruitName": "Pecan",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 18,
+    "fruitID": 26,
+    "fruitName": "Bunch grape",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 20,
+    "fruitID": 37,
+    "fruitName": "Beneficial Insects",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 24,
+    "fruitID": 30,
+    "fruitName": "Cherry",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 26,
+    "fruitID": 23,
+    "fruitName": "Strawberry",
+    "affectionTypeID": 2,
+    "typeName": "Insect"
+  },
+  {
+    "id": 1,
+    "fruitID": 23,
+    "fruitName": "Strawberry",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 3,
+    "fruitID": 24,
+    "fruitName": "Peach",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 5,
+    "fruitID": 25,
+    "fruitName": "Blueberry",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 7,
+    "fruitID": 28,
+    "fruitName": "Apple",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 9,
+    "fruitID": 26,
+    "fruitName": "Bunch grape",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 10,
+    "fruitID": 27,
+    "fruitName": "Blackberry",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 11,
+    "fruitID": 30,
+    "fruitName": "Cherry",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 12,
+    "fruitID": 31,
+    "fruitName": "Cranberry",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 13,
+    "fruitID": 29,
+    "fruitName": "Pear",
+    "affectionTypeID": 1,
+    "typeName": "Disease"
+  },
+  {
+    "id": 23,
+    "fruitID": 23,
+    "fruitName": "Strawberry",
+    "affectionTypeID": 3,
+    "typeName": "Weeds"
+  }
+]
