@@ -22,6 +22,10 @@ class DBHelper extends SQLiteOpenHelper {
             DBTables.MyTable table = tables.getIthTableInstance(i);
             sqLiteDatabase.execSQL(table.getCreateStatement());
         }
+
+        for (String index : DBIndex.INDEXES) {
+            sqLiteDatabase.execSQL(index);
+        }
     }
 
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
