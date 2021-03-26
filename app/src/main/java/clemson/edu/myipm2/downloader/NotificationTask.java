@@ -30,7 +30,7 @@ import clemson.edu.myipm2.downloader.entity.Notification;
 
 public class NotificationTask extends AsyncTask<Void, Void, List<Notification>> {
 
-    private static final String URL = "http://myipm.bugwoodcloud.org/test/myipm.api.php/notification";
+    private static final String URL = "https://myipm.bugwoodcloud.org/test/myipm.api.php/notification";
     private Context context;
     private OnNotificationTaskCompleteListener listener;
 

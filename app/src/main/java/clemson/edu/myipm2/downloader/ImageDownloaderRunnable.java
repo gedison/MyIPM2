@@ -68,6 +68,7 @@ public class ImageDownloaderRunnable implements Runnable {
             if(!(fileName.contains("mp3") || fileName.contains("MP3"))) {
 
                 myNotificationManager.incrementBuilder();
+                fileName = fileName.replace("http","https");
                 System.out.println(fileName);
                 Bitmap bitmap = decodeSampledBitmapFromURL(fileName, width, height);
                 if(bitmap == null){
