@@ -26,7 +26,7 @@ import clemson.edu.myipm2.database.dao.AppDAO;
 public class GetAppsFromWebTask extends AsyncTask<Void, Void, List<AppDAO.App>> {
     private Gson gson;
     private OnGetAppsFinishedListener listener;
-    private static final String BASE_URL = "http://myipm.bugwoodcloud.org/test/myipm.api.php/";
+    private static final String BASE_URL = "https://myipm.bugwoodcloud.org/test/myipm.api.php/";
 
     public GetAppsFromWebTask(OnGetAppsFinishedListener initFinishedListener){
         this.gson = new Gson();

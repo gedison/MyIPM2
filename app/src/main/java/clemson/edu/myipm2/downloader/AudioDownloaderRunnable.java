@@ -41,6 +41,7 @@ public class AudioDownloaderRunnable implements Runnable {
                 OutputStream output = null;
 
                 try {
+                    fileName = fileName.replace("http","https");
                     URL url = new URL(fileName);
                     inputStream = new BufferedInputStream(url.openStream());
                     String[] temp = fileName.split("/");

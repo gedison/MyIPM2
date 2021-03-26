@@ -18,7 +18,7 @@ import java.util.List;
 
 public class InitDatabaseFromWebTask extends AsyncTask<Void, Void, Boolean> {
 
-    private static final String BASE_URL = "http://myipm.bugwoodcloud.org/test/myipm.api.php/";
+    private static final String BASE_URL = "https://myipm.bugwoodcloud.org/test/myipm.api.php/";
 
     private final DBAdapter mDBAdapter;
     private final OnSyncFinishedListener listener;
